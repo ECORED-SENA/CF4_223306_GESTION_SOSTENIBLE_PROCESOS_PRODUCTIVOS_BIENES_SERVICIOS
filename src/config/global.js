@@ -72,7 +72,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video MotionEco innovación.',
+            titulo: 'Eco innovación.',
             hash: 't_2_2',
           },
           {
@@ -339,7 +339,7 @@ export default {
     },
     {
       termino: 'PUEEA',
-      significado: 'Programa de uso eficiente y ahorro del agua',
+      significado: 'Programa de uso eficiente y ahorro del agua.',
     },
     {
       termino: 'Rentas',
@@ -347,7 +347,7 @@ export default {
     },
     {
       termino: 'Retorno',
-      significado: 'Pago, satisfacción o recompensa del beneficio recibido',
+      significado: 'Pago, satisfacción o recompensa del beneficio recibido.',
     },
     {
       termino: 'Sostenibilidad',
@@ -364,9 +364,9 @@ export default {
       link: 'https://www.youtube.com/watch?v=K6FqZPy3fYk',
     },
     {
-      tema: '2. Sellos y etiquetado sostenible.',
-      referencia: 'Icesi. (2021). Sellos y certificaciones de sostenibilidad.',
-      tipo: 'Documento PDF.      ',
+      tema: '2. Sellos y etiquetado sostenible',
+      referencia: 'Icesi. (2021). Sellos y certificaciones de sostenibilidad',
+      tipo: 'Documento PDF      ',
       link:
         'https://www.icesi.edu.co/centros-academicos/images/Centros/Kairos/Archivos/sistesis-sellos.pdf',
     },

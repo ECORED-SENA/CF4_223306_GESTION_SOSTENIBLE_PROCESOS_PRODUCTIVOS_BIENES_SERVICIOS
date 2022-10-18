@@ -144,9 +144,6 @@
             | Su coste debe estar equilibrado con su efectividad.
           li.mb-0
             i.fas.fa-check-circle
-            | Su coste debe estar equilibrado con su efectividad.
-          li.mb-0
-            i.fas.fa-check-circle
             | Ser sensibles a los cambios.
           li.mb-0
             i.fas.fa-check-circle
@@ -188,7 +185,7 @@
             .col.mb-3.mb-sm-0
               p.text-small Los siguientes son algunos ejemplos de indicadores ambientales, se le invita querido aprendiz que los revise a detalle indagando acerca de cada uno de ellos en la red o en las bases de datos del Sena 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="('https://biblioteca.sena.edu.co/paginas/bases.html')" target="_blank")
                 span Ir al enlace
     .row.bg13
       .col-lg-6

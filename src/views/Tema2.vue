@@ -163,7 +163,7 @@
       .col-lg-2
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
-        p.mb-0.text-white Si quiere saber más de estos sellos revise el documento que se encuentra en el material complementario con el nombre de síntesis-sellos.pdf de Icesi (2021)
+        p.mb-0.text-white Si quiere saber más de estos sellos revise el documento que se encuentra en el material complementario con el nombre de síntesis-sellos.pdf de Icesi (2021).
     
     p.mt-3 Los diferentes sellos de sostenibilidad tienen los mismos objetivos en común y todos buscan ser duraderos en el tiempo, esos objetivos son:
     .row.mb-5
@@ -322,7 +322,7 @@
             .row.justify-content-center
               .col-lg-8
                 h4 IPE 
-                p Innovation Partnership Europe son las iniciativas que reúnen a agentes públicos y privados en sectores clave donde la innovación ambiental puede ayudar a mejorar la eficiencia y la productividad
+                p Innovation <i>Partnership Europe</i> son las iniciativas que reúnen a agentes públicos y privados en sectores clave donde la innovación ambiental puede ayudar a mejorar la eficiencia y la productividad
               .col-lg-4
                 img(src='@/assets/curso/tema2/img23.png', alt='Texto que describa la imagen')
     p La eco innovación es muy importante para la sociedad actualmente, lleva al desarrollo de nuevas fuentes de energías que buscan brindar soluciones a los problemas actuales que van deteriorando con el planeta, es por eso que hoy en día la gran mayoría de proyectos tienen que ver con el medio ambiente ya que son los que más se tienen en cuenta y son beneficiados tributariamente por el gobierno ayudando a crecer, estas ideas que contribuyen a una mejor eficiencia y productividad en los emprendedores.
@@ -427,7 +427,7 @@
         p La biodegradación está influenciada por la naturaleza química de la sustancia, o material que se quiere biodegradar, y por el ambiente de biodegradación. Los ambientes del compostaje y de la digestión anaeróbica favorecen un ritmo elevado de biodegradación a nivel industrial.
         .row.p-1.cg
           p Estos productos comparten siempre las mismas características al descomponerse volviendo así de forma natural a su compuesto químico principal, es ahí donde se da el fenómeno de biodegradabilidad puesto que algunos productos están hechos de compuestos químicos de muy larga vida como la mayoría de los plásticos o el icopor que son a base de polímeros. Los productos hechos en base a materiales naturales tienen vidas menos largas luego de ser desechados, por ejemplo, el cartón a base de madera.
-    p.mt-2 Para tener mayor claridad del impacto de los productos en el medio ambiente los investigadores han trabajado en descubrir los tiempos en los que se degrada cada uno de los materiales con los que se trabaja habitualmente la fabricación de productos, tenga en cuenta la siguiente información para la elección de la materia prima de trabajo en sus productos, esta información es basada en Efimarket (2017):
+    p.mt-2 Para tener mayor claridad del impacto de los productos en el medio ambiente los investigadores han trabajado en descubrir los tiempos en los que se degrada cada uno de los materiales con los que se trabaja habitualmente la fabricación de productos, tenga en cuenta la siguiente información para la elección de la materia prima de trabajo en sus productos, esta información es basada en <i>Efimarket</i> (2017):
     .row.justify-content-center.bg6.mt-4
       .col-lg-11
         .row.mt-5

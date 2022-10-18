@@ -124,7 +124,7 @@
         img(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen')
         figcaption Nota. https://bit.ly/3c7kOoq 
     .col-lg-5.mt-4.bha.p-1
-      h4.mt-1 Programa de evaluación industrial PEVI (2018-2022).
+      h4.mt-1 Programa de evaluación industrial PEVI (2018-2022)
     .row.mt-4
       .col-lg-6
         p Gracias al éxito del proyecto EEI en Colombia, UNIDO/UPME ha comenzado a darle continuidad a través de una iniciativa denominada “Programa para el Desarrollo Industrial (PEVI)” que creará y promoverá oportunidades para el uso eficiente de la energía en la industria y al mismo tiempo, formar administradores universitarios en regiones específicas del país. El PEVI consta de dos fases piloto que se implementaron en 2018 y 2019. Estas fases facilitan la generación de insumos para identificar y validar metodologías, planes y mecanismos, trabajando con universidades e industria de la región.

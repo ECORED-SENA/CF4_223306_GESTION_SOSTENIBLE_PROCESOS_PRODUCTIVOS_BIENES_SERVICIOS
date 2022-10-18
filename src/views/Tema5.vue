@@ -101,10 +101,10 @@
               td Base de datos
               td Difícil predicción de todas las variables
             tr
-              td Simplificación de decisiones.
+              td Simplificación de decisiones
               td La fiabilidad solo se basa de los datos que tengas
             tr
-              td Costes y beneficios ocultos.
+              td Costes y beneficios ocultos
               td Elimina los elementos humanos
     separador          
     #t_5_2.titulo-segundo.color-acento-contenido
@@ -116,7 +116,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema5/img6.png')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-0 La tasa de retorno conocida como tasa de rentabilidad, es la productividad que da una inversión siendo el indicador adecuado para medir la inversión, reflejando así el margen de pérdidas o beneficios obtenidos en el periodo de tiempo que se realizó la inversión. Para medir la tasa de retorno se debe aplicar la siguiente fórmula: Tasa de rentabilidad–= [(Valor final - valor inicial) / Valor inicial] x 100
+            p.mb-0 La tasa de retorno conocida como tasa de rentabilidad, es la productividad que da una inversión siendo el indicador adecuado para medir la inversión, reflejando así el margen de pérdidas o beneficios obtenidos en el periodo de tiempo que se realizó la inversión. Para medir la tasa de retorno se debe aplicar la siguiente fórmula: Tasa de rentabilidad–= [(Valor final - valor inicial) / Valor inicial] x 100.
         p.mt-3 En la tasa de retorno también se encuentra la tasa interna de retorno. Cuando se habla de la tasa interna de retorno se hace referencia a una tasa porcentual que indica la rentabilidad anual que genera el proyecto. Es un instrumento más que hay para lograr evaluar un plan sin perder de vista el total del proyecto.
         p Con la tasa interna de retorno se puede saber en qué momento una inversión puede ser rentable o no y es reflejada en porcentaje. Se usa especialmente cuando se tienen varias alternativas de inversión para definir con cual opción se puede quedar la empresa sin multiplicar su riesgo. 
         p La fórmula de la tasa de retorno interna es la siguiente:
