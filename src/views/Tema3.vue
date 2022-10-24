@@ -13,9 +13,9 @@
     .row.mt-4.p-3.bt2
       .col-lg-2
         img(src='@/assets/curso/tema3/img1.svg', alt='Texto que describa la imagen')
-      .col-lg-10
+      .col-lg-10.mt-2
         p Estos elementos permiten que la comunicación sea una oportunidad en el diario vivir, el tema es muy amplio y se puede dividir en subgrupos para entenderla mejor: dos subgrupos importantes son lo que tienen que ver con la comunicación oral y la comunicación escrita que también se conocen como tipos de la comunicación y se describen a continuación:
-    
+    separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1  La comunicación oral 
     p Es aquella que se realiza entre dos o más personas con el uso de un lenguaje o código compartido por medio de un medio de transmisión físico que normalmente se le conoce como aire, aunque en la actualidad se puede añadir elementos de comunicación oral que se usan con frecuencia todos los días en el vivir como lo son los teléfonos y las computadores o dispositivos electrónicos.
@@ -39,13 +39,14 @@
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2  Comunicación de atributos ambientales
-    .row
+    .row.bgf
       .col-lg-8
         p La comunicación ambiental permite a los ciudadanos obtener información clave, así como aprender a consultar datos para comprender mejor lo que sucede en el medio ambiente. De esta manera, cada individuo puede decidir que recibe y que comparte con el fin de protegerse y ayudar a los demás. Los temas iniciales son de conciencia ambiental y cambio de hábitos que las nuevas generaciones entienden muy bien. El mensaje que se debe enviar es el de hacer una sociedad que sea sostenible en todo sentido.
         p La comunicación ambiental no es solo la comunicación de asuntos ambientales, la comunicación ambiental tiene como objetivo una educación ambiental, esta comunicación ambiental debe ser el tono de comunicación que tienen los negocios verdes o negocios basados en economía circular.
         p La lealtad del comprador es el proceso de crear una conexión emocional con los consumidores y alentarlos a comprar con más frecuencia o fortalecer los lazos entre los clientes y las empresas. Al brindar una experiencia de compra positiva y memorable, su empresa construye una relación de confianza, esto los alentará a volver a comprar sus productos y servicios, así como a recomendar su marca a amigos y familiares. Los siguientes son algunos de los elementos a tener en cuenta cuando hable con sus usuarios:
       .col-lg-4
         img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
+    
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

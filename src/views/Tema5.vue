@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 5
       h1 Sistemas de costos
-    .cajon-b.color-primario.p-3.mb-5
+    .cajon-b.color-secundario.p-3.mb-5
       p.mb-0 Los sistemas de costos son un grupo de técnicas y métodos para calcular el precio de las diferentes ocupaciones de la compañía, considerando el tipo de actividad se posee la siguiente categorización de los sistemas de costos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.justify-content-center(titulo="Sistemas de costos según el tratamiento de los costos fijos")
@@ -42,7 +42,7 @@
       h2 5.1  Análisis costo beneficio   
     .row
       .col-lg-8.mt-4
-        .cajon-b.color-primario.p-3.mb-5
+        .cajon-b.color-acento-botones.p-3.mb-5
           p.mb-0 El costo – beneficio es un proceso por medio del cual las empresas tienen la posibilidad de examinar elecciones, sistemas, proyectos, o establecer un costo para intangibles. El modelo se hace identificando las ventajas de una acción, así como los costes asociados y restando los costes de las ventajas. Una vez hecho el ejercicio se tiene resultados útiles que se van a poder utilizar para obtener conclusiones sobre la viabilidad o conveniencia de una elección o situación. 
 
             br
@@ -98,14 +98,26 @@
                 h4 Pero también trae consigo ciertas desventajas las cuales son:
           table
             tr
-              td Base de datos
-              td Difícil predicción de todas las variables
+              td
+                i.fas.fa-check-circle.cv 
+                | Base de datos
+              td 
+                i.fas.fa-check-circle.cv 
+                | Difícil predicción de todas las variables
             tr
-              td Simplificación de decisiones
-              td La fiabilidad solo se basa de los datos que tengas
+              td
+                i.fas.fa-check-circle.cv 
+                | Simplificación de decisiones
+              td
+                i.fas.fa-check-circle.cv
+                | La fiabilidad solo se basa de los datos que tengas
             tr
-              td Costes y beneficios ocultos
-              td Elimina los elementos humanos
+              td
+                i.fas.fa-check-circle.cv 
+                | Costes y beneficios ocultos
+              td
+                i.fas.fa-check-circle.cv 
+                | Elimina los elementos humanos
     separador          
     #t_5_2.titulo-segundo.color-acento-contenido
       h2 5.2  Tasa de retorno 
@@ -126,7 +138,7 @@
               h3.text-center.text-white Tasa interna de retorno.
             .row.colorv2.p-2.aling-items-center
               .col-lg-7
-                h5 Donde:
+                h5.mb-0 Donde:
                 p <strong>Qn =</strong> es el flujo de caja en el periodo n.
                 p <strong>N =</strong> es el número de periodos.
                 p <strong>I =</strong>  es el valor de la inversión inicial.
@@ -141,7 +153,7 @@
     .row
       .col-lg-5
         img(src='@/assets/curso/tema5/img9.png' alt='AvatarTop')
-      .col-lg-7
+      .col-lg-7.mt-2
         p Este es un porcentaje que le permite comparar diferentes alternativas que ofrecen los proveedores de productos o servicios financieros. Se utiliza para evaluar proyectos de inversión y corresponde a todos los ingresos y gastos convertidos a un monto equivalente una vez al año, el mismo para cada período. El costo anual equivalente del proyecto es el costo y los ingresos.
         p Se usa para una diversidad de fines, integrado el presupuesto de capital; sin embargo, se utiliza con más frecuencia para examinar dos o más proyectos potenciales con diferentes ciclos de vida, donde los precios son la variable más importante.
         p La fórmula que se maneja es la siguiente:
@@ -149,10 +161,10 @@
           h3.text-center.text-white Costo anual equivalente       
         .row.colorv2.p-2.justify-content-center
           .col-lg-10.mt-4
-            h4.text-center CAUE o BAUE = VAN * (1+i) n*i/(1-i) n*i
-            h5 Donde:
-            h5 i: corresponde a la tasa de intereses.
-            h5 n: corresponde al número de periodos a evaluar
+            h4.text-center.mb-0 CAUE o BAUE = VAN * (1+i) n*i/(1-i) n*i
+            p Donde:
+            p <strong>i:</strong> corresponde a la tasa de intereses.
+            p <strong>n:</strong> corresponde al número de periodos a evaluar
 
 </template>
 
@@ -183,4 +195,16 @@ export default {
   left: 50%
 .bloque-texto-g__texto
   right: 40%
+.cajon-b.color-secundario:before
+  background-color: #FAEBCD
+.cajon-b.color-acento-botones:before
+  background-color: #F9D0BA
+.tabla-b td
+  width: 500px
+.bloque-texto-g__texto
+  @media screen and ( max-width: 992px)
+    right: 0%!important
+.bloque-texto-g__img
+  @media screen and ( max-width: 992px)
+    left: 0%!important
 </style>

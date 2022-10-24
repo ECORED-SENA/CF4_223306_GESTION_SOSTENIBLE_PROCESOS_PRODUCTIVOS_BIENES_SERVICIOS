@@ -7,7 +7,7 @@
         span 1
       h1 Modelo de negocio en la implementación de la economía circular
     p Un modelo de negocio es una herramienta de proyecto previo al trabajo, que permite tener un concepto claro de los alcances de una empresa en un determinado proyecto conociendo su viabilidad tal como se explica a continuación:
-    ImagenInfografica.color-acento-botones.mb-5
+    ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen')
@@ -33,9 +33,9 @@
           h5 ¿Cómo generar recursos?
         p Las empresas no viven solo de las ventas, el modelo de negocio apoya directamente la generación de recursos para los diferentes movimientos empresariales.
     .row.mt-4
-      .col-lg-4
+      .col-lg-4(data-aos="zoom-in")
         img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
-      .col-lg-8
+      .col-lg-8.mt-2
         p.mb-0 El modelo de negocio permite ver los alcances de la empresa y evita que se hagan inversiones erróneas salvaguardando los intereses de la empresa, esta es una herramienta de investigación que permite saber ¿quién es la empresa? y ¿quién es el usuario? en la realidad de un mercado. Esta herramienta es tan amplia que se divide en varios tipos de modelos de negocio, para este efecto y componente formativo se trabajará con el          
           span.tc1 <strong>modelo de negocio circular.</strong>   
           |  En pocas palabras, los modelos de negocio representan el conjunto de ideas, estrategias y principios con el cual las organizaciones generan valor.  
@@ -44,19 +44,42 @@
           span.tc1 <strong>“la economía circular abre oportunidades para un abanico de nuevos modelos de negocio a partir de innovaciones tecnológicas, servicios de desmaterialización y productos nuevos que aumentan las posibilidades de nuevos ciclos de transformación en sistemas industriales” </strong>   
           |  por ende los emprendimientos nacionales y las empresas ven grandes oportunidades en este medio. Un modelo de negocio circular se fundamenta en el análisis y desarrollo, a partir de su concepción, de cada una de las probables recirculaciones de elementos y materiales y la reducción o supresión de residuos, durante todo el periodo de vida del producto.      
     p.mt-2 Para entender mejor el concepto de modelo de negocio se realiza la siguiente gráfica que explica lo que es un modelo de negocio circular:
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 1.  
       span Modelo de negocio en la economía circular
-    img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
+    .row
+      .col-lg-4
+        h5 Modelos de negocios 
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta.colorn
+            p <strong>Suministros circulares:</strong> uso de energías renovables, biomasa o materiales reciclables en lugar de recursos perecederos. 
+          li 
+            .lista-ol--cuadro__vineta.colorr1
+            p <strong>Recuperación de los recursos:</strong>  obtención de energía/recursos útiles a partir de residuos o productos de desecho.
+          li 
+            .lista-ol--cuadro__vineta.colorr
+            p <strong>Prolongación de la vida útil del producto:</strong>  ampliación del ciclo de vida de productos y componentes mediante reparación, actualización y reventa.
+          li 
+            .lista-ol--cuadro__vineta.colorg
+            p <strong>Uso compartido de plataformas:</strong>  aumento del nivel de uso de productos compartiendo su empleo/acceso/propiedad. 
+          li 
+            .lista-ol--cuadro__vineta.colorg1
+            p.mb-0 <strong>Producto como servicio*: </strong>  acceso a productos cuya propiedad se conserva para internalizar los beneficios generados con la productividad de recursos circulares. 
+                                 
+      .col-lg-8
+        img(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
+
+    p *Aplicable a flujos de productos en cualquier punto de la cadena de valor.
     figcaption Nota. Tomada de Guía rápida para diseñar modelos de negocio circulares de Alba, Á. (2021). 
     .row.mt-4
       .col-lg-8.mt-4
         p La economía circular, así como la innovación es algo que se debe encontrar en el ADN de las empresas, estas dos herramientas permiten a las empresas ser competentes. La circularidad es uno de los factores importantes en la innovación de los planes estratégicos empresariales pensar a futuro porque son negocios que reciclan los materiales para volver a transformarlos, esa es la circularidad o ciclo.
         p La economía circular busca reciclar los materiales ayudando a la descontaminación que se presenta en la actualidad, es por ello, que este modelo llama la atención de las empresas, y así el deseo de implementarla en sus negocios, y así ayudar a conservar el medio ambiente de una forma innovadora donde el material primo vuelva a ser reutilizado para seguir generando nuevos productos. En la actualidad, la economía circular es implementada a nivel mundial siendo aceptada con un buen agrado por los consumidores, los cuales le dan el visto bueno a este método económico con el cual se ofrece una solución que aporta  a la disminución del calentamiento global. A manera de ejemplo, puede revisar a continuación varios tipos de negocios circulares:
-      .col-lg-4
+      .col-lg-4(data-aos="slide-up")
         img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
     .row.mt-4.bg1.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="slide-up")
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
@@ -93,70 +116,70 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1  Portafolio de iniciativas de economía circular
     p Un portafolio de iniciativas, es un conjunto de ideas agrupadas y presentadas de una forma ordenada      con la información completa y necesaria para que el inversor pueda ver lo que se pretende realizar. En este caso un portafolio de iniciativas de economía circular es una estrategia que muestra las mejores ideas en la ejecución del plan que hace circular el modelo de negocio de la empresa, la tarea de este portafolio es mostrar las mejores opciones y estrategias para cumplir con el objetivo principal. A continuación, se presenta el portafolio de economía circular como recurso básico de trabajo:
-    img(src='@/assets/curso/tema1/img5.svg', alt='Texto que describa la imagen')
+    img(data-aos="zoom-in")(src='@/assets/curso/tema1/img5.svg', alt='Texto que describa la imagen')
     figcaption Infografía realizada con base en Ceiba (2020).
     p.mt-4 Se busca que los portafolios de la economía circular sean innovadores con el fin de experimentar nuevos proyectos en el ámbito internacional ofreciendo un intercambio de experiencias y nuevos conocimientos a la economía, es por eso por lo que entre más innovador sea el portafolio más va a llamar la atención de las empresas se recomienda que cuente con las siguientes características:   
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4.mt-5
+    SlyderF.mb-5(data-aos="zoom-in")(columnas="col-lg-6 col-xl-4")
+      .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
           .col-6
             img.mtn(src='@/assets/curso/tema1/i2.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Identificación
+            h4.text-center.mt-2.mb-2 Identificación
         p.text-center.mt-4.mb-5 Se debe mostrar con claridad de donde es el portafolio.
-      .tarjeta.color-acento-botones.p-4.mt-5
+      .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
           .col-6
             img.mtn(src='@/assets/curso/tema1/i3.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Categorización
+            h4.text-center.mt-2.mb-2 Categorización
         p.text-center.mt-4.mb-5 Presenta el material ordenado y jerarquizado.
-      .tarjeta.color-acento-botones.p-4.mt-5
+      .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
           .col-6
             img.mtn(src='@/assets/curso/tema1/i4.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Evaluación
+            h4.text-center.mt-2.mb-2 Evaluación
         p.text-center.mt-4.mb-5 El portafolio está todo el tiempo en evaluación constante.
-      .tarjeta.color-acento-botones.p-4.mt-5
+      .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
           .col-6
             img.mtn(src='@/assets/curso/tema1/i5.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Selección
+            h4.text-center.mt-2.mb-2 Selección
         p.text-center.mt-4.mb-5 Permite seleccionar los productos o servicios que trabaja la empresa.
-      .tarjeta.color-acento-botones.p-4.mt-5
+      .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
           .col-6
             img.mtn(src='@/assets/curso/tema1/i6.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Priorización
-        p.text-center.mt-4.mb-5 Da relevancia a los productos o servicios que mejor trabaja la empresa con relación a la circularidad.
-      .tarjeta.color-acento-botones.p-4.mt-5
+            h4.text-center.mt-2.mb-2 Priorización
+        p.text-center.mt-4.mb-4 Da relevancia a los productos o servicios que mejor trabaja la empresa con relación a la circularidad.
+      .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
           .col-6
             img.mtn(src='@/assets/curso/tema1/i7.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Balanceo
+            h4.text-center.mt-2.mb-2 Balanceo
         p.text-center.mt-4.mb-5 Muestra el balance de la empresa con el medio social y medio ambiente.
-      .tarjeta.color-acento-botones.p-4.mt-5
+      .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
           .col-6
             img.mtn(src='@/assets/curso/tema1/i8.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Autorización
+            h4.text-center.mt-2.mb-2 Autorización
         p.text-center.mt-4.mb-5 Permite autorizar a la empresa para trabajar en economía circular.
     .row.mt-4
-      .col-lg-1
-        img(src='@/assets/curso/tema1/ico.svg' alt='AvatarTop')
-      .col-lg-11
+      .col-lg-1(data-aos="slide-left")
+        img.tamq1(src='@/assets/curso/tema1/ico.svg' alt='AvatarTop')
+      .col-lg-11.mt-2
         p Cada portafolio tiene un objetivo y debe ser identificado, evaluado, clasificado para luego ser priorizado. Luego de conocer con claridad el fin del portafolio la empresa dictamina el portafolio más indicado para invertir, el portafolio escogido debe contar con las mejores formas de cumplir los objetivos y así no tener pérdidas financieras o de tiempo en su desarrollo.
         p Los objetivos estratégicos surgen de la misión y visión que la organización tiene predeterminada. El logro de estos objetivos mueve a la organización de su estado actual al ideal para dar inicio al desarrollo de su planificación estratégica.
     separador
@@ -166,7 +189,7 @@
       span.tc1 <strong>“la inversión de impacto aborda problemas ambientales y sociales diferentes como la agricultura sostenible, vivienda asequible, salud asequible y accesible, desafíos del cambio climático y otros temas importantes que mejoren la calidad de vida entre la población”.</strong>   
       |  Este tipo de inversión está potenciando las ganas de los inversores por proyectos innovadores de alto impacto.
     .row.justify-content-center.mt-5
-      .col-lg-10        
+      .col-lg-10(data-aos="zoom-in-down")        
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img6.png')})`}"
@@ -175,7 +198,7 @@
             p.mb-0 La inversión de impacto también es una ganancia financiera ya que los costos sociales van de la mano con los beneficios financieros. Una indagación de un rendimiento financiero no califica una inversión social en una donación caritativa o una donación no reembolsable. Lo que distingue a la inversión social de la inversión tradicional es que la rentabilidad financiera está estrechamente relacionada con el desempeño social y depende del logro de los objetivos sociales: específicamente, los inversores solo recibirán productividad y rentabilidad financiera si esto se logra a eso se le puede llamar mínimo impacto social.
     p.mt-4 El impacto social debe ser medido y convertido en métricas financieras, las inversiones de impacto deben perseguir impactos que sean medibles en su proyección como se muestra en la siguiente infografía:
     .row.justify-content-center.mt-4
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in-down")
         img(src='@/assets/curso/tema1/img7.svg', alt='Texto que describa la imagen')
         figcaption Imagen realizada en base a Bustamante (2016).
     .row.mt-5
@@ -183,8 +206,8 @@
         p Las inversiones de impacto son atractivas para las empresas no solo porque buscan generar retornos financieros, sino que también por el impacto ambiental y social positivo. Estas inversiones tienen un fin transformador y se diferencian por que busca generar un cambio positivo, también evita los impactos negativos de la inversión en relación al medio ambiente y a la sostenibilidad, en Colombia como lo cuenta Daniel Uribe de AFE las empresas son cada vez más amigas de esta inversión ya que existen diferentes tipos de actores, cada uno con motivaciones, expectativas y enfoques distintos, que se articulan para crear iniciativas enfocadas a la inversión de impacto. En Colombia son 32 actores en todo el ecosistema de inversión de impacto, de estos, el 10% son fundaciones. De igual forma se tienen diversos mecanismos para ejecutar la inversión de impacto, fondos de inversión, fondos de inversión de impacto, estrategias de <i>Blended Finance</i> y bonos de impacto social, entre otros (2018).
       .col-lg-4 
         img(src='@/assets/curso/tema1/img8.png', alt='Texto que describa la imagen')
-    p Por otro lado, las empresas mediante este tipo de inversiones buscan mejorar la relación entre la rentabilidad y el riego ya que mediante una correcta gestión de las características que se presentan en la siguiente infografía, se puede lograr sostenibilidad: 
-    img(src='@/assets/curso/tema1/img9.svg', alt='Texto que describa la imagen')
+    p.mt-2 Por otro lado, las empresas mediante este tipo de inversiones buscan mejorar la relación entre la rentabilidad y el riego ya que mediante una correcta gestión de las características que se presentan en la siguiente infografía, se puede lograr sostenibilidad: 
+    img(data-aos="zoom-in-down")(src='@/assets/curso/tema1/img9.svg', alt='Texto que describa la imagen')
 
 </template>
 
@@ -208,13 +231,17 @@ export default {
 
 <style lang="sass">
 .tarjeta.color-acento-botones
-  background-color: #E2D9FF
+  background-color: #E2DAFC
 .tarjeta.color-acento-botones *
   color: #12263F
 .titulo-sexto.color-acento-contenido
   border-left-color:  #12263F
-.tarjeta.color-acento-botones
+.tarjeta.color-acento-contenido
   background-color: #FAEBCD
+.tarjeta.color-acento-contenido *
+  color: #12263F
 .bloque-texto-g.color-secundario
   background-color: #E2D9FF
+.tarjeta
+  border-radius: 30px
 </style>

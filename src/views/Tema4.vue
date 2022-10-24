@@ -29,12 +29,12 @@
       .col-lg-8
         p.mb-0.text-white Para ampliar el tema sobre Programas de ahorro y uso eficiente del agua, se recomienda ver el video sobre: “Ahorro y uso eficiente del Agua” que se encuentra en el material complementario de este componente formativo.
     
-    .row.bg8
-      .row.mt-3
+    .row.bg8.align-items-center
+      .row.mt-3.align-items-center
         .col-lg-4
           img(src='@/assets/curso/tema4/img3.png', alt='Texto que describa la imagen')
 
-        .col-lg-8
+        .col-lg-8.mt-2
           p También se encuentra el PUEEA (Programa para la Eficiencia y Conservación del Agua), este documento explica el funcionamiento y la disponibilidad del recurso hídrico en el tiempo. Este programa trabaja una concesión legal de agua para una población determinada cuando se requiera. Este documento es uno de los requisitos que se deben presentar y cumplir para solicitar la prórroga de las concesiones de agua y en las decisiones de concesión requeridas. Además, todas las personas naturales o jurídicas que operen una concesión de agua deben presentar un documento PUEEA.
           p En la siguiente gráfica se puede ver la normatividad que sustenta el PUEEA en Colombia:
       .row.justify-content-center.mt-4
@@ -96,8 +96,8 @@
       h4.mt-1 Primer balance de energía útil para Colombia (BEU) – 2018
     .row.mt-3
       .col-lg-1
-        img(src='@/assets/curso/tema4/img9.svg', alt='Texto que describa la imagen')
-      .col-lg-11
+        img.tamq1(src='@/assets/curso/tema4/img9.svg', alt='Texto que describa la imagen')
+      .col-lg-11.mt-2
         p El Balance Energético Beneficioso (BEU) es un programa que mide el daño económico causado por tecnología obsoleta, prácticas ineficientes y baja volatilidad de la matriz energética nacional en 2015. Los sectores estudiados son residencial, industrial, transporte, comercial y público. En cuanto al cálculo de ineficiencias, se evalúan las características de los equipos existentes frente a la mejor tecnología disponible (BAT), tanto a nivel nacional como internacional.
     p.mt-1 El BEU determinó que las pérdidas por ineficiencia energética ascendieron a aproximadamente $6.700 millones en comparación con los equipos actualmente en uso con BAT en Colombia y $11.000 millones con BAT a nivel internacional como se puede ver en la siguiente figura:
     .row.mt-4.justify-content-center
@@ -123,7 +123,8 @@
           span Impacto de la implementación de Sistemas de Gestión de Energía SGEn 
         img(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen')
         figcaption Nota. https://bit.ly/3c7kOoq 
-    .col-lg-5.mt-4.bha.p-1
+    .row.mt-4
+    .col-lg-5.mt-5.bha.p-1
       h4.mt-1 Programa de evaluación industrial PEVI (2018-2022)
     .row.mt-4
       .col-lg-6
@@ -206,4 +207,10 @@ export default {
   background-color: #FAEBCD
 .tarjeta-avatar > img
   width: 100px
+.bloque-texto-g__texto
+  @media screen and ( max-width: 992px)
+    right: 0%!important
+.bloque-texto-g__img
+  @media screen and ( max-width: 992px)
+    left: 0%!important
 </style>

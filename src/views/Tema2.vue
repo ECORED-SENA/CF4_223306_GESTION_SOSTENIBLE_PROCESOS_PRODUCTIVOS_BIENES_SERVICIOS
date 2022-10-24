@@ -27,6 +27,7 @@
               h4.mt-4 ORIGEN
 
               p Es el principio a la sostenibilidad, las entidades se comprometen y ajustan sus procesos a la sostenibilidad.
+              .row.aaqws
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -34,7 +35,10 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img3.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.mt-4 EVOLUCIÓN
-              p Las entidades ya pasaron la prueba de inicio y se mantienen firmes en la creación de un modelo de negocio sostenible que sea estable.
+              p.mb-5 Las entidades ya pasaron la prueba de inicio y se mantienen firmes en la creación de un modelo de negocio sostenible que sea estable.
+              .row.mb-5
+              .row.mb-4
+              .row.aaqws
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -43,19 +47,20 @@
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.mt-4 ESENCIA
               p Luego de tener los dos primero niveles se consigue la esencia que consiste en que la entidad esté centrada en la sostenibilidad con todos los procesos medidos en su impacto.
+              .row.aaqws
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img5.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-4
-              h4.mt-4 EXCELENCIA
-              p Es el nivel más alto del sello y se logra cuando las entidades están todo el tiempo buscando reducir la huella negativa que dejan en el ambiente y en el medio, por lo general son empresas de economía circular. 
-
+              h4.mt-5 EXCELENCIA
+              p.mb-5 Es el nivel más alto del sello y se logra cuando las entidades están todo el tiempo buscando reducir la huella negativa que dejan en el ambiente y en el medio, por lo general son empresas de economía circular. 
+              .row.aaqws
     .row.mt-4.p-3.bt2
       .col-lg-2
         img(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen')
-      .col-lg-10
+      .col-lg-10.mt-2
         p El principio detrás de estas categorías es recopilar información sobre estándares de sostenibilidad en todo el mundo, incluido el Índice de sostenibilidad Dow Jones, ISO 26000, Pacto mundial, Iniciativa de informes globales, SR10, Sociedades BIC (colectivas y buenas), Objetivos de desarrollo sostenible, entre otros, y tema Dentro de cada uno es parte de una metodología de evaluación de cuatro frentes: orientación estratégica, económico-ética, social y ambiental (Icontec, 2022). Para postularse a un sello de sostenibilidad es necesario considerar los siguientes elementos como requisito:
     
     .row.mt-5.justify-content-center
@@ -65,21 +70,21 @@
           span Sellos de sostenibilidad
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header
-            th Elemento 
-            td <strong>Descripción</strong>
+            th.h4 Elemento 
+            td.h4 <strong>Descripción</strong>
           table
             caption Nota. https://bit.ly/3QBS7Pw
             tr
-              th Proceso de otorgamiento
+              th.h5 Proceso de otorgamiento
               td ●	Toda la organización estará en el alcance de la certificación.
             tr
-              th Autoevaluación
+              th.h5 Autoevaluación
               td ●	Plataforma de autogestión.<br>●	Mínimos de sostenibilidad.<br>●	Entrega de resultados.
             tr
-              th Validación y verificación
+              th.h5 Validación y verificación
               td ●	Revisión de resultados de autoevaluación por ICONTEC.<br>●	Auditoría en sitio, remota o parcialmente remota.<br>●	Auditoría multisitio.
             tr
-              th Otorgamiento
+              th.h5 Otorgamiento
               td ●	Decisión de otorgamiento.<br>●	Categorización.
     p Los sellos de sostenibilidad son un garante de beneficios para las empresas, a nivel de mercado no todas las empresas tienen estos identificativos y cada vez se harán más necesarios en busca de reducir el impacto negativo de las empresas en el ambiente; enseguida se presentan los beneficios para las empresas o entidades que los portan:
     .tarjeta.tarjeta--azul.p-4.mb-5
@@ -104,16 +109,7 @@
               .col-md-8
                 figure
                   img(src='@/assets/curso/tema2/img8.png', alt='Texto que describa la imagen')
-        .row.justify-content-center
-          .col-lg-11.mt-5
-            .row
-              .col-md-4.mb-4.mb-md-0
-                h4 Riesgos y beneficios
-                p Ayuda a comprender los riesgos y beneficios de las diferentes prácticas dentro de la organización.
-            
-              .col-md-8
-                figure
-                  img(src='@/assets/curso/tema2/img8.png', alt='Texto que describa la imagen')  
+
         .row.justify-content-center
           .col-lg-11.mt-5
             .row
@@ -133,7 +129,7 @@
             
               .col-md-8
                 figure
-                  img(src='@/assets/curso/tema2/img9.png', alt='Texto que describa la imagen')  
+                  img(src='@/assets/curso/tema2/za2.png', alt='Texto que describa la imagen')  
         .row.justify-content-center
           .col-lg-11.mt-5
             .row
@@ -156,8 +152,8 @@
                   img(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')   
     .row.mt-4
       .col-lg-1
-        img(src='@/assets/curso/tema2/img13.svg', alt='Texto que describa la imagen')   
-      .col-lg-11
+        img.tamq1(src='@/assets/curso/tema2/img13.svg', alt='Texto que describa la imagen')   
+      .col-lg-11.mt-2
         p Además de Icontec que es una de las empresas que certifica los sellos en Colombia se pueden obtener sellos de calidad con otras empresas y otros tipos de sellos que cumplen con los requisitos necesarios de sostenibilidad, estos sellos son nacionales o internacionales y se presentan como una solución a la globalización logrando identificar las empresas que los cumplen. La conciencia sostenible cada vez va en aumento, esto hace que los empresarios del mundo quieran contratar cada vez más con empresas sostenibles porque saben que sus materias primas, insumos y productos elaborados están preocupados por dejar la menor huella negativa para el mundo.
     .row.mt-4.bg3.p-4.align-items-center
       .col-lg-2
@@ -170,7 +166,7 @@
       .col-lg-3.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img.p-2(src='@/assets/curso/tema2/1.png' alt='AvatarTop' style='width:300px')
+          img.p-2.aaw(src='@/assets/curso/tema2/1.png' alt='AvatarTop' style='width:300px')
           .tarjetas-up_card_2.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
@@ -181,7 +177,7 @@
             p.text-center Minimizar el impacto ambiental negativo del proceso de fabricación, tanto en el sitio como en la fábrica, en el medio ambiente (incluida la protección del equilibrio del ecosistema, la reducción de contaminantes durante la producción), etc.
       .col-lg-3.mb-3
         .tarjetas-up
-          img.p-2(src='@/assets/curso/tema2/2.png' alt='AvatarTop' style='width:300px')
+          img.p-2.aaw(src='@/assets/curso/tema2/2.png' alt='AvatarTop' style='width:300px')
           .tarjetas-up_card_2.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
@@ -192,7 +188,7 @@
             p.text-center Minimizar el uso de productos que puedan dañar la salud de los consumidores, los fabricantes o el ecosistema.
       .col-lg-3.mb-3
         .tarjetas-up
-          img.p-2(src='@/assets/curso/tema2/3.png' alt='AvatarTop' style='width:300px')
+          img.p-2.aaw(src='@/assets/curso/tema2/3.png' alt='AvatarTop' style='width:300px')
           .tarjetas-up_card_2.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
@@ -203,7 +199,7 @@
             p.text-center Minimizar el uso de productos modificados genéticamente.
       .col-lg-3.mb-3
         .tarjetas-up
-          img.p-2(src='@/assets/curso/tema2/4.png' alt='AvatarTop' style='width:300px')
+          img.p-2.aaw(src='@/assets/curso/tema2/4.png' alt='AvatarTop' style='width:300px')
           .tarjetas-up_card_2.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
@@ -225,11 +221,11 @@
         p.mt-4 De manera general se presentan los beneficios para las empresas que apliquen por sostenibilidad; sin embargo, la invitación es a que los contadores de cada empresa sean quienes estén al tanto de las novedades porque cada empresa depende de su figura jurídica legal para acceder al descuento tributario. En la siguiente tabla se presentan dichos beneficios:        
       .col-lg-4
         img(src='@/assets/curso/tema2/img14.png', alt='Texto que describa la imagen')   
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido.mt-4
       h5 Tabla 2. 
       span Beneficios tributarios de productos sostenibles
     .tabla-b.color-acento-contenido.mb-5
-      .tabla-b__header
+      .tabla-b__header.pqa
       table
         caption Nota. Adaptado de MinAmbiente (2022).
         tr
@@ -256,7 +252,7 @@
     .row
       .col-lg-5
         img(src='@/assets/curso/tema2/img16.png', alt='Texto que describa la imagen')   
-      .col-lg-7
+      .col-lg-7.mt-2
         p Eco Innovación se refiere a la innovación ambiental, como la palabra lo indica, es cualquier forma de innovación que coopere con el desarrollo sostenible, reduzca el impacto ambiental y mejore el uso de los recursos. En términos de innovación, la innovación ambiental implica la construcción de productos y procesos que reduzcan la degradación ambiental. Desde una perspectiva económica, la innovación ambiental espera que las organizaciones hagan un buen uso de los recursos naturales para mejorar la paz humana.
         p Los objetivos que se plantean en la eco innovación apuntan al desarrollo de nuevas ideas que se puedan implementar en la economía aprovechando al máximo los recursos naturales actuales mientras los cuidan, en este caso se pueden usar tecnologías que defiendan el sostenible. 
     p Con relación a la eco innovación se ha trabajado mucho en los últimos años logrando por parte de la Unión Europea establecer el Plan de Acción sobre Ecoinnovación (2011) que promulga 7 acciones básicas para estructurar las acciones a tomar de parte de las empresas y los Estados, estas 7 acciones se presentan a continuación:
@@ -350,7 +346,7 @@
       .col-lg-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img.p-2(src='@/assets/curso/tema2/img26.png' alt='AvatarTop' style='width:400px')
+          img.aaw(src='@/assets/curso/tema2/img26.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
@@ -361,7 +357,7 @@
             p.text-center Cradle to cradle se puede definir como el diseño y producción de productos de todo tipo de tal manera que al final de su vida, puedan ser verdaderamente reciclados (upcycled), imitando el ciclo de la naturaleza con todo reciclado o devuelto a la tierra, directa o indirectamente a través de los alimentos, como un completamente seguro y no tóxico.
       .col-lg-4.mb-3
         .tarjetas-up
-          img.p-2(src='@/assets/curso/tema2/img27.png' alt='AvatarTop' style='width:400px')
+          img.aaw(src='@/assets/curso/tema2/img27.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
@@ -372,7 +368,7 @@
             p.text-center Gestión ambiental — Integración de los aspectos ambientales en el diseño y desarrollo de productos.
       .col-lg-4.mb-3
         .tarjetas-up
-          img.p-2(src='@/assets/curso/tema2/img28.png' alt='AvatarTop' style='width:400px')
+          img.aaw(src='@/assets/curso/tema2/img28.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
@@ -383,7 +379,7 @@
             p.text-center Norma de sistemas de gestión que especifica los requisitos para la formulación y mantenimiento de un SGA. Ayuda a controlar los aspectos ambientales, reducir impactos y asegurar el cumplimiento legal.
     
     p.mt-2 Estas normas son las que velan por el ecodiseño en el mercado, son las encargadas de vigilar el producto y ofrecerle garantía evaluando y acreditando el trabajo de cada empresa con los productos. Además, el ecodiseño tiene los siguientes beneficios exponenciales:
-    .row.bg5
+    .row.bg5.align-items-center
       .col-lg-1
         img.mt-2(src='@/assets/curso/tema2/e1.svg', alt='Texto que describa la imagen')
         img.mt-4(src='@/assets/curso/tema2/e2.svg', alt='Texto que describa la imagen')
@@ -392,9 +388,9 @@
         img.mt-4(src='@/assets/curso/tema2/e5.svg', alt='Texto que describa la imagen')
 
       .col-lg-8
-        .row.cr.p-2
+        .row.cr.p-2.mt-3
           h5 Reducción de emisiones:
-          p El consumo durante el transporte disminuyó y, en consecuencia, las emisiones de CO2.
+          p.mb-3 El consumo durante el transporte disminuyó y, en consecuencia, las emisiones de CO2.
         .row.cr.p-2.mt-4
           h5 Industrias más sostenibles:
           p El Las empresas ganan en capacidad de innovación y refuerzan su compromiso con el medio ambiente.
@@ -409,8 +405,8 @@
           p Los productos sostenibles cuentan con un valor añadido que lo distinguen de la competencia.
 
       .col-lg-3
-        img(src='@/assets/curso/tema2/img29.svg', alt='Texto que describa la imagen')
-    .row.mt-4.bg3.p-4.align-items-center
+        img.tamq1(src='@/assets/curso/tema2/img29.svg', alt='Texto que describa la imagen')
+    .row.bg3.p-4.align-items-center
       .col-lg-2
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
@@ -422,13 +418,13 @@
       .col-lg-5
         img(src='@/assets/curso/tema2/img30.png', alt='Texto que describa la imagen')
 
-      .col-lg-7
+      .col-lg-7.mt-2
         p Cuando se habla de la biodegradabilidad, se refiere a la capacidad que posee un producto en sus materiales y sustancias al descomponerse formando parte de un periodo natural de la vida en la tierra con base al carbono. La biodegradación depende mucho de elementos de la naturaleza ya que aquellos productos biodegradables que se ven en el mercado hoy en día están compuestos por materiales como lo son la paja, la madera, hojas y otros elementos más que permiten que el producto tenga un ciclo en el cual después se descomponga en microorganismo ayudando así a que no aumente la contaminación en el medio ambiente.
         p La biodegradación está influenciada por la naturaleza química de la sustancia, o material que se quiere biodegradar, y por el ambiente de biodegradación. Los ambientes del compostaje y de la digestión anaeróbica favorecen un ritmo elevado de biodegradación a nivel industrial.
         .row.p-1.cg
           p Estos productos comparten siempre las mismas características al descomponerse volviendo así de forma natural a su compuesto químico principal, es ahí donde se da el fenómeno de biodegradabilidad puesto que algunos productos están hechos de compuestos químicos de muy larga vida como la mayoría de los plásticos o el icopor que son a base de polímeros. Los productos hechos en base a materiales naturales tienen vidas menos largas luego de ser desechados, por ejemplo, el cartón a base de madera.
-    p.mt-2 Para tener mayor claridad del impacto de los productos en el medio ambiente los investigadores han trabajado en descubrir los tiempos en los que se degrada cada uno de los materiales con los que se trabaja habitualmente la fabricación de productos, tenga en cuenta la siguiente información para la elección de la materia prima de trabajo en sus productos, esta información es basada en <i>Efimarket</i> (2017):
-    .row.justify-content-center.bg6.mt-4
+    p.mt-4 Para tener mayor claridad del impacto de los productos en el medio ambiente los investigadores han trabajado en descubrir los tiempos en los que se degrada cada uno de los materiales con los que se trabaja habitualmente la fabricación de productos, tenga en cuenta la siguiente información para la elección de la materia prima de trabajo en sus productos, esta información es basada en <i>Efimarket</i> (2017):
+    .row.justify-content-center.bg6
       .col-lg-11
         .row.mt-5
         .row.mt-5
@@ -460,9 +456,11 @@
           .row(titulo="4.000 años" subtitulo="Vidrio")
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema2/img34.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img35.png', alt='Texto que describa la imagen')
             .col-lg-7.mb-4.mb-lg-0.mt-2
               p Para los microorganismos del suelo es muy difícil realizar su descomposición, sea cual sea las dimensiones y las formas (como botellas de vidrio, vasos, gafas de cristal, etc…). El vidrio debe ser reciclado para este fin o su huella es casi eterna.
+        .row.mb-5
+        .row.mb-5
         .row.mb-5
         separador
     #t_2_5.titulo-segundo.color-acento-contenido
@@ -471,28 +469,28 @@
     .row.mb-5
       .col-md-4.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/e6.svg' alt='AvatarTop')
-          .tarjeta.color-primario
-            .text-white.p-5
+          img.aqq(src='@/assets/curso/tema2/e6.svg' alt='AvatarTop')
+          .tarjeta.color-primario.a1
+            .p-2
               h5.text-center Reforestación 
       .col-md-4.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/e7.svg' alt='AvatarTop')
-          .tarjeta.color-acento-botones
-            .p-5
+          img.aqq(src='@/assets/curso/tema2/e7.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones.a2
+            .p-2
               h5.text-center Tratamiento de agua residuales
       .col-md-4.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/e8.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido
-            .p-5
+          img.aqq(src='@/assets/curso/tema2/e8.svg' alt='AvatarTop')
+          .tarjeta.color-acento-contenido.a3
+            .p-2
               h5.text-center Reciclaje
       .col-md-4.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/e9.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido
-            .p-5
-              h5.text-center Uso de energías renovables
+          img.aqq(src='@/assets/curso/tema2/e9.svg' alt='AvatarTop')
+          .tarjeta.color-acento-contenido.a4
+            .p-2
+              h5.text-center.mb-5 Uso de energías renovables
     .row.mt-4 
       .col-lg-8
         p Cuando se hace referencia sobre el impacto de la economía en el medio ambiente se logra una visión de la economía actual, gracias a las nuevas economías que se han ido desempeñando he implementado para el cuidado del medio ambiente como lo son los productos biodegradables y la economía circular, estas innovaciones dan un impacto económico positivo al medio ambiente aportando soluciones al medio ambiente en temas de reciclaje y disminución de la contaminación.
@@ -546,4 +544,15 @@ export default {
   border: solid 4px #E3D8FF
 .tarjeta-avatar > img
   width: 100px
+.bloque-texto-g.color-secundario
+  background-color:  #EF8B53
+.tarjeta-avatar
+  width: 250px
+.tarjeta-avatar .tarjeta
+  width: 300px
+  @media screen and ( max-width: 992px)
+    width: 200px
+.tarjeta-avatar > img
+  @media screen and ( max-width: 992px)
+    left: 40%
 </style>
