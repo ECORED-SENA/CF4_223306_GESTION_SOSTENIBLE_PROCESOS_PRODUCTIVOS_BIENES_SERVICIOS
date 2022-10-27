@@ -59,7 +59,7 @@
               .row.aaqws
     .row.mt-4.p-3.bt2
       .col-lg-2
-        img(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen')
+        img.tamq1(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen')
       .col-lg-10.mt-2
         p El principio detrás de estas categorías es recopilar información sobre estándares de sostenibilidad en todo el mundo, incluido el Índice de sostenibilidad Dow Jones, ISO 26000, Pacto mundial, Iniciativa de informes globales, SR10, Sociedades BIC (colectivas y buenas), Objetivos de desarrollo sostenible, entre otros, y tema Dentro de cada uno es parte de una metodología de evaluación de cuatro frentes: orientación estratégica, económico-ética, social y ambiental (Icontec, 2022). Para postularse a un sello de sostenibilidad es necesario considerar los siguientes elementos como requisito:
     
@@ -229,13 +229,13 @@
       table
         caption Nota. Adaptado de MinAmbiente (2022).
         tr
-          th Equipos y elementos que no pagan IVA
+          th.h5 Equipos y elementos que no pagan IVA
           td Adquisición de equipos y elementos para sistemas de monitoreo y control ambiental, importación de equipos para reciclaje y tratamiento de basura, filtrado y tratamiento de aguas servidas, emisiones o residuos sólidos, y para otros proyectos. Los proyectos para reducir las emisiones de gases de efecto invernadero, así como los equipos para convertir vehículos a gas natural no están sujetos al IVA. El ahorro para los empresarios es del 16% del valor de la compra de equipos (artículos 424-5 numeral 4 y 428 letras “f” e “i” del Código Tributario).
         tr
-          th Deducción en la base de impuesto a la renta
+          th.h5 Deducción en la base de impuesto a la renta
           td El valor de la inversión en control y mejoramiento ambiental puede ser deducido de la base de ingresos hasta un monto que no exceda el 20% de los ingresos netos (Artículo 158-2 del Código Tributario Colombiano).
         tr
-          th Rentas exentas
+          th.h5 Rentas exentas
           td Están exentos del pago del impuesto sobre la renta la venta de energía generada a partir de recursos eólicos, biomasa o subproductos agrícolas que reduzcan las emisiones de gases de efecto invernadero y la venta de certificados de reducción de emisiones de CO2, así como las rentas por servicios energéticos ecoturísticos (artículos 207-2) N°1 y N°5 del Código Tributario Colombiano).
     .row.justify-content-center
       .col-lg-10
@@ -380,29 +380,29 @@
     
     p.mt-2 Estas normas son las que velan por el ecodiseño en el mercado, son las encargadas de vigilar el producto y ofrecerle garantía evaluando y acreditando el trabajo de cada empresa con los productos. Además, el ecodiseño tiene los siguientes beneficios exponenciales:
     .row.bg5.align-items-center
-      .col-lg-1
-        img.mt-2(src='@/assets/curso/tema2/e1.svg', alt='Texto que describa la imagen')
+      .col-lg-1.ffa
+        img.mt-4(src='@/assets/curso/tema2/e1.svg', alt='Texto que describa la imagen')
         img.mt-4(src='@/assets/curso/tema2/e2.svg', alt='Texto que describa la imagen')
-        img.mt-5(src='@/assets/curso/tema2/e3.svg', alt='Texto que describa la imagen')
+        img.mt-4(src='@/assets/curso/tema2/e3.svg', alt='Texto que describa la imagen')
         img.mt-4(src='@/assets/curso/tema2/e4.svg', alt='Texto que describa la imagen')
         img.mt-4(src='@/assets/curso/tema2/e5.svg', alt='Texto que describa la imagen')
 
       .col-lg-8
-        .row.cr.p-2.mt-3
+        .row.cr.p-2.mt-4
           h5 Reducción de emisiones:
-          p.mb-3 El consumo durante el transporte disminuyó y, en consecuencia, las emisiones de CO2.
+          p.mb-2 El consumo durante el transporte disminuyó y, en consecuencia, las emisiones de CO2.
         .row.cr.p-2.mt-4
           h5 Industrias más sostenibles:
-          p El Las empresas ganan en capacidad de innovación y refuerzan su compromiso con el medio ambiente.
+          p.mb-2 El Las empresas ganan en capacidad de innovación y refuerzan su compromiso con el medio ambiente.
         .row.cr.p-2.mt-4
           h5 Producción más eficiente:
-          p El Favorece el ahorro de energía y requiere de menos recursos naturales y materias primas.
+          p.mb-2 El Favorece el ahorro de energía y requiere de menos recursos naturales y materias primas.
         .row.cr.p-2.mt-4
           h5 Consumidores más fáciles:
-          p Satisface la demanda del mercado con productos más atractivos para el público cada vez más exigente.
+          p.mb-2 Satisface la demanda del mercado con productos más atractivos para el público cada vez más exigente.
         .row.cr.p-2.mt-4
           h5 Diferenciación en el mercado:
-          p Los productos sostenibles cuentan con un valor añadido que lo distinguen de la competencia.
+          p.mb-2 Los productos sostenibles cuentan con un valor añadido que lo distinguen de la competencia.
 
       .col-lg-3
         img.tamq1(src='@/assets/curso/tema2/img29.svg', alt='Texto que describa la imagen')
@@ -423,7 +423,7 @@
         p La biodegradación está influenciada por la naturaleza química de la sustancia, o material que se quiere biodegradar, y por el ambiente de biodegradación. Los ambientes del compostaje y de la digestión anaeróbica favorecen un ritmo elevado de biodegradación a nivel industrial.
         .row.p-1.cg
           p Estos productos comparten siempre las mismas características al descomponerse volviendo así de forma natural a su compuesto químico principal, es ahí donde se da el fenómeno de biodegradabilidad puesto que algunos productos están hechos de compuestos químicos de muy larga vida como la mayoría de los plásticos o el icopor que son a base de polímeros. Los productos hechos en base a materiales naturales tienen vidas menos largas luego de ser desechados, por ejemplo, el cartón a base de madera.
-    p.mt-4 Para tener mayor claridad del impacto de los productos en el medio ambiente los investigadores han trabajado en descubrir los tiempos en los que se degrada cada uno de los materiales con los que se trabaja habitualmente la fabricación de productos, tenga en cuenta la siguiente información para la elección de la materia prima de trabajo en sus productos, esta información es basada en <i>Efimarket</i> (2017):
+    p.mt-4.mbn Para tener mayor claridad del impacto de los productos en el medio ambiente los investigadores han trabajado en descubrir los tiempos en los que se degrada cada uno de los materiales con los que se trabaja habitualmente la fabricación de productos, tenga en cuenta la siguiente información para la elección de la materia prima de trabajo en sus productos, esta información es basada en <i>Efimarket</i> (2017):
     .row.justify-content-center.bg6
       .col-lg-11
         .row.mt-5

@@ -11,52 +11,53 @@
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
-          .col-6
+          .col-6.mt-4
             img.mtn(src='@/assets/curso/tema6/i1.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Válido
-        p.text-center.mt-4.mb-5 La medida precisa de un comportamiento, práctica o tarea, como producto o resultado esperado de una intervención.
+            h4.text-center.mt-2.mb-2 Válido
+        p.text-center.mt-4.mb-4 La medida precisa de un comportamiento, práctica o tarea, como producto o resultado esperado de una intervención.
       .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
-          .col-6
+          .col-6.mt-4
             img.mtn(src='@/assets/curso/tema6/i2.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Confiable
+            h4.text-center.mt-2.mb-2 Confiable
         p.text-center.mt-4.mb-5 Se puede medir continuamente en el tiempo, de la misma manera, por diferentes observadores.
       .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
-          .col-6
+          .col-6.mt-4
             img.mtn(src='@/assets/curso/tema6/i3.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Preciso
+            h4.text-center.mt-2.mb-2 Preciso
         p.text-center.mt-4.mb-5 Definido en términos operacionalmente claros.  
         .row.mb-4
       .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
-          .col-6
+          .col-6.mt-4
             img.mtn(src='@/assets/curso/tema6/i4.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Medible
+            h4.text-center.mt-2.mb-2 Medible
         p.text-center.mt-4.mb-5 Cuantificable usando las herramientas y métodos disponibles.
+        .row.mb-4
       .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
-          .col-6
+          .col-6.mt-4
             img.mtn(src='@/assets/curso/tema6/i5.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-8.aqw
-            h4.text-center.mt-2 Oportuno
+            h4.text-center.mt-2.mb-2 Oportuno
         p.text-center.mt-4.mb-5 Proporcionar mediciones a intervalos relevantes y apropiados en términos de las metas y actividades del programa.
       .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-5
-          .col-6
+          .col-6.mt-4
             img.mtn(src='@/assets/curso/tema6/i6.svg' alt='AvatarTop')
         .row.justify-content-center
           .col-lg-12.aqw
-            h4.text-center.mt-2 Importante programáticamente
+            h4.text-center.mt-2.mb-2 Importante programáticamente
         p.text-center.mt-4.mb-5 Vinculado al programa o a la consecución de los objetivos del programa.
     separador            
     #t_6_1.titulo-segundo.color-acento-contenido
@@ -74,23 +75,23 @@
     p Existen tres diferentes tipos de indicadores financieros que se pueden utilizar los cuales son:
     .row.mt-3.align-items-center
       .col-lg-4.mt-2
-        .row
-          .col-lg-4
+        .row.align-items-center
+          .col-lg-4.col-4
             img.tamq1(src='@/assets/curso/tema6/img2.svg' alt='AvatarTop')
-          .col-lg-8.p-3.aqaa
-            p.mb-0 Indicadores de liquidez y solvencia
+          .col-lg-8.p-3.aqaa.col-8
+            p.mb-0.p-1 Indicadores de liquidez y solvencia
       .col-lg-4.mt-2
-        .row
-          .col-lg-4
+        .row.align-items-center
+          .col-lg-4.col-4
             img.tamq1(src='@/assets/curso/tema6/img3.svg' alt='AvatarTop')
-          .col-lg-8.p-3.aqaa
-            p.mb-0 Indicadores de eficiencia 
+          .col-lg-8.p-2.aqaa.col-8
+            p.mb-0.p-4 Indicadores de eficiencia 
       .col-lg-4.mt-2
-        .row
-          .col-lg-4
+        .row.align-items-center
+          .col-lg-4.col-4
             img.tamq1(src='@/assets/curso/tema6/img4.svg' alt='AvatarTop')
-          .col-lg-8.p-3.aqaa
-            p.mb-0 Indicadores de rentabilidad
+          .col-lg-8.p-3.aqaa.col-8
+            p.mb-0.p-3 Indicadores de rentabilidad
     p.mt-5 En la rentabilidad es uno de los que más llama la atención de los inversores ya que de ahí se muestra al inversor con cifras exactas y de manera clara que tan rentable es el negocio.
     p La siguiente tabla comparte los indicadores financieros más frecuentes, la forma de tomarlos y la explicación de lo que obtiene con ellos:
     .row.justify-content-center
@@ -154,8 +155,8 @@
         .row.justify-content-center.p-2.bazx
           .col-lg-11.mt-3
             img(src='@/assets/curso/tema6/img6.png' alt='AvatarTop')
-          .col-lg-6.aqw.mt-4
-            h4.text-center.mt-2 Tipo I:
+          .col-lg-6.aqw.mt-4.p-2
+            h4.text-center.mb-0 Tipo I:
           .col-lg-11.mt-3
             p.mb-4  Para este tipo de indicador, los datos siempre están disponibles, estos datos deben ser recopilados mediante un seguimiento regular.
             .row.mb-3
@@ -163,20 +164,20 @@
         .row.justify-content-center.p-2.bazx
           .col-lg-11.mt-3
             img(src='@/assets/curso/tema6/img7.png' alt='AvatarTop')
-          .col-lg-6.aqw.mt-4
-            h4.text-center.mt-2 Tipo ll:
+          .col-lg-6.aqw.mt-4.p-2
+            h4.text-center.mb-0 Tipo ll:
           .col-lg-12.mt-3
             p Se basan en cálculos de datos que provienen del monitoreo permanente, estos datos necesitan datos adicionales ya que los datos pueden estar total o parcialmente disponibles.
       .col-lg-4.mt-2
         .row.justify-content-center.p-2.bazx
           .col-lg-11.mt-3
             img(src='@/assets/curso/tema6/img8.png' alt='AvatarTop')
-          .col-lg-6.aqw.mt-4
-            h4.text-center.mt-2 Tipo lll:
+          .col-lg-6.aqw.mt-4.p-2
+            h4.text-center.mb-0 Tipo lll:
           .col-lg-11.mt-3
             p.mb-4  No tienen ninguna base matemática ni están basados en datos que estén disponibles. Son indicadores conceptuales.
             .row.mb-3      
-    .tarjeta.color-primario.p-3.mb-5.mt-5
+    .tarjeta.color-secundario.p-3.mb-5.mt-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema6/z1.svg")
@@ -189,7 +190,51 @@
                 span Ir al enlace
     .row.bg13
       .col-lg-6
-        img(src='@/assets/curso/tema6/z3.svg' alt='AvatarTop')
+        .row.p-2.colaqw.align-items-center
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>01.</strong>
+          .col-lg-11.col-11
+            p Índice de bienestar económico sostenible (IBES).
+        .row.p-2.colaqw.align-items-center.mt-2
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>02.</strong>
+          .col-lg-11.col-11
+            p Índice de desarrollo humano (IDH).
+        .row.p-2.colaqw.align-items-center.mt-2
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>03.</strong>
+          .col-lg-11.col-11
+            p Índice de sostenibilidad ambiental (ISA).
+        .row.p-2.colaqw.align-items-center.mt-2
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>04.</strong>
+          .col-lg-11.col-11
+            p Índice de desempeño ambiental (EPI).
+        .row.p-2.colaqw.align-items-center.mt-2
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>05.</strong>
+          .col-lg-11.col-11
+            p Índice global de economía verde (GGEI).
+        .row.p-2.colaqw.align-items-center.mt-2
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>06.</strong>
+          .col-lg-11.col-11
+            p Huella ecológica (HE).
+        .row.p-2.colaqw.align-items-center.mt-2
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>07.</strong>
+          .col-lg-11.col-11
+            p Índice de planeta vivo (LPI).
+        .row.p-2.colaqw.align-items-center.mt-2
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>08.</strong>
+          .col-lg-11.col-11
+            p Huella de carbono.      
+        .row.p-2.colaqw.align-items-center.mt-2
+          .col-lg-1.col-1
+            p.ama.p-1 <strong>09.</strong>
+          .col-lg-11.col-11
+            p Huella hídrica.
 
       .col-lg-6.mt-2
         img(src='@/assets/curso/tema6/z2.svg' alt='AvatarTop')
@@ -222,29 +267,29 @@
     p Por otro lado, un KPI debe tener las siguientes cualidades que la organización debe tener presente en la aplicación:
     .row.mt-3
       .col-lg-3.mt-2
-        .row
-          .col-lg-5
+        .row.align-items-center
+          .col-lg-5.col-5
             img.tamq1(src='@/assets/curso/tema6/a.svg' alt='AvatarTop')
-          .col-lg-7.p-3.aqaa2
-            h5.mb-0 Estar bien definido y ser cuantificable.
+          .col-lg-7.p-3.aqaa2.col-7
+            h5.mb-0.p-2 Estar bien definido y ser cuantificable.
       .col-lg-3.mt-2
-        .row
-          .col-lg-5
+        .row.align-items-center
+          .col-lg-5.col-5
             img.tamq1(src='@/assets/curso/tema6/a1.svg' alt='AvatarTop')
-          .col-lg-7.p-3.aqaa2
-            h5.mb-0.mt-4 Ser medible.
+          .col-lg-7.p-3.aqaa2.col-7
+            h5.mb-0.mt-1.p-4 Ser medible.
       .col-lg-3.mt-2
-        .row
-          .col-lg-5
+        .row.align-items-center
+          .col-lg-5.col-5
             img.tamq1(src='@/assets/curso/tema6/a2.svg' alt='AvatarTop')
-          .col-lg-7.aqaa2.p-2
-            h5.mb-0 Sé crucial para lograr los objetivos de negocio, pero ser realista y alcanzable. 
+          .col-lg-7.aqaa2.p-2.col-7
+            h5.mb-0.p-1 Sé crucial para lograr los objetivos de negocio, pero ser realista y alcanzable. 
       .col-lg-3.mt-2
-        .row.ali
-          .col-lg-5
+        .row.align-items-center
+          .col-lg-5.col-5
             img.tamq1(src='@/assets/curso/tema6/a3.svg' alt='AvatarTop')
-          .col-lg-7.p-2.aqaa2
-            h5.mb-0 Ser aplicable en un plazo de tiempo establecido.  
+          .col-lg-7.p-1.aqaa2.col-7
+            h5.mb-0.p-3.mt-2 Ser aplicable en un plazo de tiempo establecido.  
     
 </template>
 

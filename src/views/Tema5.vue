@@ -128,14 +128,14 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema5/img6.png')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-0 La tasa de retorno conocida como tasa de rentabilidad, es la productividad que da una inversión siendo el indicador adecuado para medir la inversión, reflejando así el margen de pérdidas o beneficios obtenidos en el periodo de tiempo que se realizó la inversión. Para medir la tasa de retorno se debe aplicar la siguiente fórmula: Tasa de rentabilidad–= [(Valor final - valor inicial) / Valor inicial] x 100.
+            p.mb-0 La tasa de retorno conocida como tasa de rentabilidad, es la productividad que da una inversión siendo el indicador adecuado para medir la inversión, reflejando así el margen de pérdidas o beneficios obtenidos en el periodo de tiempo que se realizó la inversión. Para medir la tasa de retorno se debe aplicar la siguiente fórmula: <strong>Tasa de rentabilidad–= [(Valor final - valor inicial) / Valor inicial] x 100.</strong>
         p.mt-3 En la tasa de retorno también se encuentra la tasa interna de retorno. Cuando se habla de la tasa interna de retorno se hace referencia a una tasa porcentual que indica la rentabilidad anual que genera el proyecto. Es un instrumento más que hay para lograr evaluar un plan sin perder de vista el total del proyecto.
         p Con la tasa interna de retorno se puede saber en qué momento una inversión puede ser rentable o no y es reflejada en porcentaje. Se usa especialmente cuando se tienen varias alternativas de inversión para definir con cual opción se puede quedar la empresa sin multiplicar su riesgo. 
         p La fórmula de la tasa de retorno interna es la siguiente:
         .row.mt-4
           .col-lg-8.mt-5
             .row.colorv.p-2
-              h3.text-center.text-white Tasa interna de retorno.
+              h3.text-center.text-white.mb-0 Tasa interna de retorno.
             .row.colorv2.p-2.aling-items-center
               .col-lg-7
                 h5.mb-0 Donde:
@@ -158,7 +158,7 @@
         p Se usa para una diversidad de fines, integrado el presupuesto de capital; sin embargo, se utiliza con más frecuencia para examinar dos o más proyectos potenciales con diferentes ciclos de vida, donde los precios son la variable más importante.
         p La fórmula que se maneja es la siguiente:
         .row.colorv.p-2
-          h3.text-center.text-white Costo anual equivalente       
+          h3.text-center.text-white.mb-0 Costo anual equivalente       
         .row.colorv2.p-2.justify-content-center
           .col-lg-10.mt-4
             h4.text-center.mb-0 CAUE o BAUE = VAN * (1+i) n*i/(1-i) n*i
