@@ -75,16 +75,16 @@
           table
             caption Nota. https://bit.ly/3QBS7Pw
             tr
-              th.h5 Proceso de otorgamiento
+              th.h5.wim Proceso de otorgamiento
               td ●	Toda la organización estará en el alcance de la certificación.
             tr
-              th.h5 Autoevaluación
+              th.h5.wim  Autoevaluación
               td ●	Plataforma de autogestión.<br>●	Mínimos de sostenibilidad.<br>●	Entrega de resultados.
             tr
-              th.h5 Validación y verificación
+              th.h5.wim  Validación y verificación
               td ●	Revisión de resultados de autoevaluación por ICONTEC.<br>●	Auditoría en sitio, remota o parcialmente remota.<br>●	Auditoría multisitio.
             tr
-              th.h5 Otorgamiento
+              th.h5.wim  Otorgamiento
               td ●	Decisión de otorgamiento.<br>●	Categorización.
     p Los sellos de sostenibilidad son un garante de beneficios para las empresas, a nivel de mercado no todas las empresas tienen estos identificativos y cada vez se harán más necesarios en busca de reducir el impacto negativo de las empresas en el ambiente; enseguida se presentan los beneficios para las empresas o entidades que los portan:
     .tarjeta.tarjeta--azul.p-4.mb-5
@@ -162,8 +162,8 @@
         p.mb-0.text-white Si quiere saber más de estos sellos revise el documento que se encuentra en el material complementario con el nombre de síntesis-sellos.pdf de Icesi (2021).
     
     p.mt-3 Los diferentes sellos de sostenibilidad tienen los mismos objetivos en común y todos buscan ser duraderos en el tiempo, esos objetivos son:
-    .row.mb-5
-      .col-lg-3.mb-3
+    .row.mb-5.justify-content-center
+      .col-lg-3.mb-3.col-md-6.col-9
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img.p-2.aaw(src='@/assets/curso/tema2/1.png' alt='AvatarTop' style='width:300px')
@@ -175,7 +175,7 @@
               h4.mb-0.text-center.mb-4  Impacto ambiental
             
             p.text-center Minimizar el impacto ambiental negativo del proceso de fabricación, tanto en el sitio como en la fábrica, en el medio ambiente (incluida la protección del equilibrio del ecosistema, la reducción de contaminantes durante la producción), etc.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-md-6.col-9
         .tarjetas-up
           img.p-2.aaw(src='@/assets/curso/tema2/2.png' alt='AvatarTop' style='width:300px')
           .tarjetas-up_card_2.bg--2-claro.p-4
@@ -186,7 +186,7 @@
               h4.mb-0.text-center.mb-4  Uso de productos
             
             p.text-center Minimizar el uso de productos que puedan dañar la salud de los consumidores, los fabricantes o el ecosistema.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-md-6.col-9
         .tarjetas-up
           img.p-2.aaw(src='@/assets/curso/tema2/3.png' alt='AvatarTop' style='width:300px')
           .tarjetas-up_card_2.bg--2-claro.p-4
@@ -197,7 +197,7 @@
               h4.mb-0.text-center.mb-4 Productos modificados genéticamente
           
             p.text-center Minimizar el uso de productos modificados genéticamente.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-md-6.col-9
         .tarjetas-up
           img.p-2.aaw(src='@/assets/curso/tema2/4.png' alt='AvatarTop' style='width:300px')
           .tarjetas-up_card_2.bg--2-claro.p-4
@@ -342,8 +342,8 @@
         img(src='@/assets/curso/tema2/img25.svg', alt='Texto que describa la imagen')
     p.mt-3 Una de las características más importantes de un producto de eco diseño es el mensaje que transmite, el cual debe ser ecológico, de tal forma que genere conciencia ambiental en el usuario, quien al hacer compra y uso de ese producto debe sentir que está salvando el mundo.
     p El ecodiseño tiene que ver con el diseño sostenible, el cual tiene su propia normativa, las normas más comunes de ecodiseño a nivel global son las siguientes:
-    .row.mb-5
-      .col-lg-4.mb-3
+    .row.mb-5.justify-content-center
+      .col-lg-4.mb-3.col-md-8
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img.aaw(src='@/assets/curso/tema2/img26.png' alt='AvatarTop' style='width:400px')
@@ -355,7 +355,7 @@
               h4.mb-0.text-center.mb-4  Cradle to Cradle (C2C)
             
             p.text-center Cradle to cradle se puede definir como el diseño y producción de productos de todo tipo de tal manera que al final de su vida, puedan ser verdaderamente reciclados (upcycled), imitando el ciclo de la naturaleza con todo reciclado o devuelto a la tierra, directa o indirectamente a través de los alimentos, como un completamente seguro y no tóxico.
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3.col-md-8
         .tarjetas-up
           img.aaw(src='@/assets/curso/tema2/img27.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
@@ -366,7 +366,7 @@
               h4.mb-0.text-center.mb-4  ISO 14062
             
             p.text-center Gestión ambiental — Integración de los aspectos ambientales en el diseño y desarrollo de productos.
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3.col-md-8
         .tarjetas-up
           img.aaw(src='@/assets/curso/tema2/img28.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4

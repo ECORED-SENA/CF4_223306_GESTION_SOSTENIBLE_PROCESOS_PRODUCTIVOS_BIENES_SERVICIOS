@@ -191,49 +191,49 @@
     .row.bg13
       .col-lg-6
         .row.p-2.colaqw.align-items-center
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>01.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Índice de bienestar económico sostenible (IBES).
         .row.p-2.colaqw.align-items-center.mt-2
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>02.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Índice de desarrollo humano (IDH).
         .row.p-2.colaqw.align-items-center.mt-2
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>03.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Índice de sostenibilidad ambiental (ISA).
         .row.p-2.colaqw.align-items-center.mt-2
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>04.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Índice de desempeño ambiental (EPI).
         .row.p-2.colaqw.align-items-center.mt-2
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>05.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Índice global de economía verde (GGEI).
         .row.p-2.colaqw.align-items-center.mt-2
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>06.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Huella ecológica (HE).
         .row.p-2.colaqw.align-items-center.mt-2
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>07.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Índice de planeta vivo (LPI).
         .row.p-2.colaqw.align-items-center.mt-2
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>08.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Huella de carbono.      
         .row.p-2.colaqw.align-items-center.mt-2
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             p.ama.p-1 <strong>09.</strong>
-          .col-lg-11.col-11
+          .col-lg-11.col-10
             p Huella hídrica.
 
       .col-lg-6.mt-2
