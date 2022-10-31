@@ -78,20 +78,20 @@
         .row.align-items-center
           .col-lg-4.col-4
             img.tamq1(src='@/assets/curso/tema6/img2.svg' alt='AvatarTop')
-          .col-lg-8.p-3.aqaa.col-8
+          .col-lg-8.p-3.aqaa.col-8.paqw1
             p.mb-0.p-1 Indicadores de liquidez y solvencia
       .col-lg-4.mt-2
         .row.align-items-center
           .col-lg-4.col-4
             img.tamq1(src='@/assets/curso/tema6/img3.svg' alt='AvatarTop')
           .col-lg-8.p-2.aqaa.col-8
-            p.mb-0.p-4 Indicadores de eficiencia 
+            p.mb-0.p-3.paqw3 Indicadores de eficiencia 
       .col-lg-4.mt-2
         .row.align-items-center
           .col-lg-4.col-4
             img.tamq1(src='@/assets/curso/tema6/img4.svg' alt='AvatarTop')
           .col-lg-8.p-3.aqaa.col-8
-            p.mb-0.p-3 Indicadores de rentabilidad
+            p.mb-0.p-2.paqw2 Indicadores de rentabilidad
     p.mt-5 En la rentabilidad es uno de los que más llama la atención de los inversores ya que de ahí se muestra al inversor con cifras exactas y de manera clara que tan rentable es el negocio.
     p La siguiente tabla comparte los indicadores financieros más frecuentes, la forma de tomarlos y la explicación de lo que obtiene con ellos:
     .row.justify-content-center
@@ -271,25 +271,25 @@
           .col-lg-5.col-5
             img.tamq1(src='@/assets/curso/tema6/a.svg' alt='AvatarTop')
           .col-lg-7.p-3.aqaa2.col-7
-            h5.mb-0.p-2 Estar bien definido y ser cuantificable.
+            h5.mb-0.p-2.awaz1 Estar bien definido y ser cuantificable.
       .col-lg-3.mt-2
         .row.align-items-center
           .col-lg-5.col-5
             img.tamq1(src='@/assets/curso/tema6/a1.svg' alt='AvatarTop')
           .col-lg-7.p-3.aqaa2.col-7
-            h5.mb-0.mt-1.p-4 Ser medible.
+            h5.mb-0.mt-1.p-4.awaz2 Ser medible.
       .col-lg-3.mt-2
         .row.align-items-center
           .col-lg-5.col-5
             img.tamq1(src='@/assets/curso/tema6/a2.svg' alt='AvatarTop')
           .col-lg-7.aqaa2.p-2.col-7
-            h5.mb-0.p-1 Sé crucial para lograr los objetivos de negocio, pero ser realista y alcanzable. 
+            h5.mb-0.p-1.awaz3 Sé crucial para lograr los objetivos de negocio, pero ser realista y alcanzable. 
       .col-lg-3.mt-2
         .row.align-items-center
           .col-lg-5.col-5
             img.tamq1(src='@/assets/curso/tema6/a3.svg' alt='AvatarTop')
           .col-lg-7.p-1.aqaa2.col-7
-            h5.mb-0.p-3.mt-2 Ser aplicable en un plazo de tiempo establecido.  
+            h5.mb-0.p-3.mt-2.awaz4 Ser aplicable en un plazo de tiempo establecido.  
     
 </template>
 
