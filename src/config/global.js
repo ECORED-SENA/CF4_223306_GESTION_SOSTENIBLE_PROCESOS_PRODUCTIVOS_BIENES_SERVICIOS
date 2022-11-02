@@ -510,8 +510,8 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Responsable del equipo de gestión',
+        cargo: 'Responsable del equipo de gestión',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
