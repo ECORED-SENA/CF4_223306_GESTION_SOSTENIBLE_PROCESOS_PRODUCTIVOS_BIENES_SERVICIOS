@@ -414,7 +414,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable del equipo de diseño institucional',
+        cargo: 'Responsable del equipo de diseño instruccional',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -510,7 +510,7 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Responsable del equipo de gestión',
+        cargo: 'Responsable del equipo de gestión de repositorio',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
