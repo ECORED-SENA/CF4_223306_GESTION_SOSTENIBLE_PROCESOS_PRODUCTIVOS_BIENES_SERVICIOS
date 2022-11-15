@@ -27,7 +27,7 @@
       .tarjeta.color-acento-botones.p-3(x="69%" y="56.5%" numero="+")
         .titulo-sexto.color-acento-contenido
           h5 ¿Cómo generar ventas?
-        p Las ventas son el resultados de una planeación que debe ser detallada con proyecciones establecidas.
+        p Las ventas son el resultado de una planeación que debe ser detallada con proyecciones establecidas.
       .tarjeta.color-acento-botones.p-3(x="31%" y="64.5%" numero="+")
         .titulo-sexto.color-acento-contenido
           h5 ¿Cómo generar recursos?
@@ -111,7 +111,9 @@
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
         p.mb-0 Para ampliar el tema sobre el Modelo de negoció en la implementación de la economía circular, se recomienda ver el video sobre: <i>“La Economía circular en la empresa y nuevas modelos de negocio”</i> que se encuentra relacionado en el material complementario.
-    
+      .col-sm-auto
+        a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=K6FqZPy3fYk')" target="_blank")
+          span Ir a enlace
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1  Portafolio de iniciativas de economía circular

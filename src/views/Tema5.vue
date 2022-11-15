@@ -36,7 +36,9 @@
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
         p.mb-0.text-white Para ampliar el tema sobre Sistema de costo, se recomienda revisar el artículo sobre: “Diseño de Sistemas de Costeo: Fundamentos Teóricos” que se encuentra en el material complementario de este componente formativo. 
-    
+      .col-sm-auto
+        a.boton.color-acento-botones(:href="('https://www.redalyc.org/pdf/257/25700507.pdf')" target="_blank")
+          span Ir a enlace    
     separador
     #t_5_1.titulo-segundo.color-acento-contenido
       h2 5.1  Análisis costo beneficio   
@@ -76,11 +78,11 @@
             li 
               .lista-ol--cuadro__vineta
                 span 4
-              | Desarrollar un benchmarking para comparar proyectos.
+              p.mb-0 Desarrollar un <i>benchmarking</i> para comparar proyectos.
             li 
               .lista-ol--cuadro__vineta
                 span 5
-              | Comparar una iniciativa de marketing con otra.
+              p.mb-0 Comparar una iniciativa de <i>marketing</i> con otra.
             li 
               .lista-ol--cuadro__vineta
                 span 6
@@ -100,24 +102,24 @@
             tr
               td
                 i.fas.fa-check-circle.cv 
-                | Base de datos
+                | Base de datos.
               td 
                 i.fas.fa-check-circle.cv 
-                | Difícil predicción de todas las variables
+                | Difícil predicción de todas las variables.
             tr
               td
                 i.fas.fa-check-circle.cv 
-                | Simplificación de decisiones
+                | Simplificación de decisiones.
               td
                 i.fas.fa-check-circle.cv
-                | La fiabilidad solo se basa de los datos que tengas
+                | La fiabilidad solo se basa de los datos que tengas.
             tr
               td
                 i.fas.fa-check-circle.cv 
-                | Costes y beneficios ocultos
+                | Costes y beneficios ocultos.
               td
                 i.fas.fa-check-circle.cv 
-                | Elimina los elementos humanos
+                | Elimina los elementos humanos.
     separador          
     #t_5_2.titulo-segundo.color-acento-contenido
       h2 5.2  Tasa de retorno 
@@ -128,7 +130,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema5/img6.png')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-0 La tasa de retorno conocida como tasa de rentabilidad, es la productividad que da una inversión siendo el indicador adecuado para medir la inversión, reflejando así el margen de pérdidas o beneficios obtenidos en el periodo de tiempo que se realizó la inversión. Para medir la tasa de retorno se debe aplicar la siguiente fórmula: <strong>Tasa de rentabilidad–= [(Valor final - valor inicial) / Valor inicial] x 100.</strong>
+            p.mb-0 La tasa de retorno conocida como tasa de rentabilidad, es la productividad que da una inversión siendo el indicador adecuado para medir la inversión, reflejando así el margen de pérdidas o beneficios obtenidos en el periodo de tiempo que se realizó la inversión. Para medir la tasa de retorno se debe aplicar la siguiente fórmula: <strong>Tasa de rentabilidad= [(Valor final - valor inicial) / Valor inicial] x 100.</strong>
         p.mt-3 En la tasa de retorno también se encuentra la tasa interna de retorno. Cuando se habla de la tasa interna de retorno se hace referencia a una tasa porcentual que indica la rentabilidad anual que genera el proyecto. Es un instrumento más que hay para lograr evaluar un plan sin perder de vista el total del proyecto.
         p Con la tasa interna de retorno se puede saber en qué momento una inversión puede ser rentable o no y es reflejada en porcentaje. Se usa especialmente cuando se tienen varias alternativas de inversión para definir con cual opción se puede quedar la empresa sin multiplicar su riesgo. 
         p La fórmula de la tasa de retorno interna es la siguiente:
@@ -140,7 +142,7 @@
               .col-lg-7
                 h5.mb-0 Donde:
                 p <strong>Qn =</strong> es el flujo de caja en el periodo n.
-                p <strong>N =</strong> es el número de periodos.
+                p <strong>n =</strong> es el número de periodos.
                 p <strong>I =</strong>  es el valor de la inversión inicial.
               .col-lg-5
                 img(src='@/assets/curso/tema5/1.svg' alt='AvatarTop')

@@ -16,7 +16,7 @@
       
       .col-lg-4
         img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
-    p En la siguiente figura se presenta las 4 categorías en las que están divididas el sello de sostenibilidad de Icontec, una empresa o entidad que quiera el sello deberá hacer todo el camino iniciando por el origen para llegar hasta la excelencia:
+    p A continuación se presenta las 4 categorías en las que están divididas el sello de sostenibilidad de Icontec, una empresa o entidad que quiera el sello deberá hacer todo el camino iniciando por el origen para llegar hasta la excelencia:
     .row.mb-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -115,7 +115,7 @@
             .row
               .col-md-4.mb-4.mb-md-0
                 h4 Cadena de valor
-                p Extiende la cultura a la cadena de valor de una manera quea segura la integridad de la empresa.
+                p Extiende la cultura a la cadena de valor de una manera que asegura la integridad de la empresa.
             
               .col-md-8
                 figure
@@ -135,7 +135,7 @@
             .row
               .col-md-4.mb-4.mb-md-0
                 h4 Objetivos de Desarrollo Sostenible
-                p Permite ver en qué medida los ODS (objetivos de desarrollo sostenible) están incorporados en tu estrategia.
+                p Permite ver en qué medida los ODS (Objetivos de Desarrollo Sostenible) están incorporados en tu estrategia.
             
               .col-md-8
                 figure
@@ -159,8 +159,10 @@
       .col-lg-2
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
-        p.mb-0.text-white Si quiere saber más de estos sellos revise el documento que se encuentra en el material complementario con el nombre de síntesis-sellos.pdf de Icesi (2021).
-    
+        p.mb-0.text-white Si quiere saber más de estos sellos revise el documento que se encuentra en el material complementario con el nombre Sellos y certificaciones de sostenibilidad. Icesi (2021).
+      .col-sm-auto
+        a.boton.color-acento-botones(:href="('https://www.icesi.edu.co/centros-academicos/images/Centros/Kairos/Archivos/sistesis-sellos.pdf')" target="_blank")
+          span Ir a enlace    
     p.mt-3 Los diferentes sellos de sostenibilidad tienen los mismos objetivos en común y todos buscan ser duraderos en el tiempo, esos objetivos son:
     .row.mb-5.justify-content-center
       .col-lg-3.mb-3.col-md-6.col-9
@@ -230,13 +232,13 @@
         caption Nota. Adaptado de MinAmbiente (2022).
         tr
           th.h5 Equipos y elementos que no pagan IVA
-          td Adquisición de equipos y elementos para sistemas de monitoreo y control ambiental, importación de equipos para reciclaje y tratamiento de basura, filtrado y tratamiento de aguas servidas, emisiones o residuos sólidos, y para otros proyectos. Los proyectos para reducir las emisiones de gases de efecto invernadero, así como los equipos para convertir vehículos a gas natural no están sujetos al IVA. El ahorro para los empresarios es del 16% del valor de la compra de equipos (artículos 424-5 numeral 4 y 428 letras “f” e “i” del Código Tributario).
+          td Adquisición de equipos y elementos para sistemas de monitoreo y control ambiental, importación de equipos para reciclaje y tratamiento de basura, filtrado y tratamiento de aguas servidas, emisiones o residuos sólidos, y para otros proyectos. Los proyectos para reducir las emisiones de gases de efecto invernadero, así como los equipos para convertir vehículos a gas natural no están sujetos al IVA. El ahorro para los empresarios es del 16% del valor de la compra de equipos (Artículos 424-5 numeral 4 y 428 letras “f” e “i” del Código Tributario).
         tr
           th.h5 Deducción en la base de impuesto a la renta
           td El valor de la inversión en control y mejoramiento ambiental puede ser deducido de la base de ingresos hasta un monto que no exceda el 20% de los ingresos netos (Artículo 158-2 del Código Tributario Colombiano).
         tr
           th.h5 Rentas exentas
-          td Están exentos del pago del impuesto sobre la renta la venta de energía generada a partir de recursos eólicos, biomasa o subproductos agrícolas que reduzcan las emisiones de gases de efecto invernadero y la venta de certificados de reducción de emisiones de CO2, así como las rentas por servicios energéticos ecoturísticos (artículos 207-2) N°1 y N°5 del Código Tributario Colombiano).
+          td Están exentos del pago del impuesto sobre la renta, la venta de energía generada a partir de recursos eólicos, biomasa o subproductos agrícolas que reduzcan las emisiones de gases de efecto invernadero y la venta de certificados de reducción de emisiones de CO2, así como las rentas por servicios energéticos ecoturísticos (Artículos 207-2) N°1 y N°5 del Código Tributario Colombiano.
     .row.justify-content-center
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -248,14 +250,14 @@
         p.mt-4 Al igual que las empresas, los ciudadanos también pueden recibir beneficios por el cuidado ambiental, este es el caso de los vehículos eléctricos que en varias ciudades tienen excepción de impuestos y libertad de movilidad en caso de que la ciudad tenga restricción, en el caso de las ciudades que tienen “pico y placa”.
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2  Eco innovación
+      h2 2.2  Ecoinnovación
     .row
       .col-lg-5
         img(src='@/assets/curso/tema2/img16.png', alt='Texto que describa la imagen')   
       .col-lg-7.mt-2
-        p Eco Innovación se refiere a la innovación ambiental, como la palabra lo indica, es cualquier forma de innovación que coopere con el desarrollo sostenible, reduzca el impacto ambiental y mejore el uso de los recursos. En términos de innovación, la innovación ambiental implica la construcción de productos y procesos que reduzcan la degradación ambiental. Desde una perspectiva económica, la innovación ambiental espera que las organizaciones hagan un buen uso de los recursos naturales para mejorar la paz humana.
-        p Los objetivos que se plantean en la eco innovación apuntan al desarrollo de nuevas ideas que se puedan implementar en la economía aprovechando al máximo los recursos naturales actuales mientras los cuidan, en este caso se pueden usar tecnologías que defiendan el sostenible. 
-    p Con relación a la eco innovación se ha trabajado mucho en los últimos años logrando por parte de la Unión Europea establecer el Plan de Acción sobre Ecoinnovación (2011) que promulga 7 acciones básicas para estructurar las acciones a tomar de parte de las empresas y los Estados, estas 7 acciones se presentan a continuación:
+        p EcoInnovación se refiere a la innovación ambiental, como la palabra lo indica, es cualquier forma de innovación que coopere con el desarrollo sostenible, reduzca el impacto ambiental y mejore el uso de los recursos. En términos de innovación, la innovación ambiental implica la construcción de productos y procesos que reduzcan la degradación ambiental. Desde una perspectiva económica, la innovación ambiental espera que las organizaciones hagan un buen uso de los recursos naturales para mejorar la paz humana.
+        p Los objetivos que se plantean en la ecoinnovación apuntan al desarrollo de nuevas ideas que se puedan implementar en la economía aprovechando al máximo los recursos naturales actuales mientras los cuidan, en este caso se pueden usar tecnologías que defiendan el sostenible. 
+    p Con relación a la ecoinnovación se ha trabajado mucho en los últimos años logrando por parte de la Unión Europea establecer el Plan de Acción sobre Ecoinnovación (2011) que promulga 7 acciones básicas para estructurar las acciones a tomar de parte de las empresas y los Estados, estas 7 acciones se presentan a continuación:
     TabsA.color-acento-contenido.mb-5
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Política")
@@ -318,18 +320,21 @@
             .row.justify-content-center
               .col-lg-8
                 h4 IPE 
-                p Innovation <i>Partnership Europe</i> son las iniciativas que reúnen a agentes públicos y privados en sectores clave donde la innovación ambiental puede ayudar a mejorar la eficiencia y la productividad
+                p Innovation <i>Partnership Europe</i> son las iniciativas que reúnen a agentes públicos y privados en sectores clave donde la innovación ambiental puede ayudar a mejorar la eficiencia y la productividad.
               .col-lg-4
                 img(src='@/assets/curso/tema2/img23.png', alt='Texto que describa la imagen')
-    p La eco innovación es muy importante para la sociedad actualmente, lleva al desarrollo de nuevas fuentes de energías que buscan brindar soluciones a los problemas actuales que van deteriorando con el planeta, es por eso que hoy en día la gran mayoría de proyectos tienen que ver con el medio ambiente ya que son los que más se tienen en cuenta y son beneficiados tributariamente por el gobierno ayudando a crecer, estas ideas que contribuyen a una mejor eficiencia y productividad en los emprendedores.
+    p La ecoinnovación es muy importante para la sociedad actualmente, lleva al desarrollo de nuevas fuentes de energías que buscan brindar soluciones a los problemas actuales que van deteriorando con el planeta, es por eso que hoy en día la gran mayoría de proyectos tienen que ver con el medio ambiente ya que son los que más se tienen en cuenta y son beneficiados tributariamente por el gobierno ayudando a crecer, estas ideas que contribuyen a una mejor eficiencia y productividad en los emprendedores.
     .row.mt-4.bg3.p-4.align-items-center
       .col-lg-2
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
-        p.mb-0.text-white Para ampliar el tema sobre la eco innovación, se recomienda ver el video sobre: “Eco-Innovación.” Que se encuentra en el material complementario de este componente formativo.
+        p.mb-0.text-white Para ampliar el tema sobre la ecoinnovación, se recomienda ver el video sobre: “Eco-Innovación.” Que se encuentra en el material complementario de este componente formativo.
+      .col-sm-auto
+        a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=44fzIv7nYdM')" target="_blank")
+          span Ir a enlace    
     separador
     #t_2_3.titulo-segundo.color-acento-contenido
-      h2 2.3  Eco diseño
+      h2 2.3  Ecodiseño
     .row
       .col-lg-8.mt-4
         p El ecodiseño se basa en integrar criterios del medio ambiente en la etapa de concepción y desarrollo de cada producto, procurando tomar medidas preventivas con el propósito de reducir los impactos del medio ambiente en las distintas etapas de su periodo de vida. 
@@ -340,7 +345,7 @@
     .row.bg4
       .col-lg-11
         img(src='@/assets/curso/tema2/img25.svg', alt='Texto que describa la imagen')
-    p.mt-3 Una de las características más importantes de un producto de eco diseño es el mensaje que transmite, el cual debe ser ecológico, de tal forma que genere conciencia ambiental en el usuario, quien al hacer compra y uso de ese producto debe sentir que está salvando el mundo.
+    p.mt-3 Una de las características más importantes de un producto de ecodiseño es el mensaje que transmite, el cual debe ser ecológico, de tal forma que genere conciencia ambiental en el usuario, quien al hacer compra y uso de ese producto debe sentir que está salvando el mundo.
     p El ecodiseño tiene que ver con el diseño sostenible, el cual tiene su propia normativa, las normas más comunes de ecodiseño a nivel global son las siguientes:
     .row.mb-5.justify-content-center
       .col-lg-4.mb-3.col-md-8
@@ -381,6 +386,8 @@
     p.mt-2 Estas normas son las que velan por el ecodiseño en el mercado, son las encargadas de vigilar el producto y ofrecerle garantía evaluando y acreditando el trabajo de cada empresa con los productos. Además, el ecodiseño tiene los siguientes beneficios exponenciales:
     .row.bg5.align-items-center
       .col-lg-1.ffa
+        img.mt-4(src='@/assets/curso/tema2/e4.svg', alt='Texto que describa la imagen')
+
         img.mt-4(src='@/assets/curso/tema2/e1.svg', alt='Texto que describa la imagen')
         img.mt-4(src='@/assets/curso/tema2/e2.svg', alt='Texto que describa la imagen')
         img.mt-4(src='@/assets/curso/tema2/e3.svg', alt='Texto que describa la imagen')
@@ -389,14 +396,17 @@
 
       .col-lg-8
         .row.cr.p-2.mt-4
+          h5 Artículos de mayor calidad:
+          p.mb-2 Los productos son de mejor calidad porque su desarrollo es mayor.
+        .row.cr.p-2.mt-4
           h5 Reducción de emisiones:
           p.mb-2 El consumo durante el transporte disminuyó y, en consecuencia, las emisiones de CO2.
         .row.cr.p-2.mt-4
           h5 Industrias más sostenibles:
-          p.mb-2 El Las empresas ganan en capacidad de innovación y refuerzan su compromiso con el medio ambiente.
+          p.mb-2 Las empresas ganan en capacidad de innovación y refuerzan su compromiso con el medio ambiente.
         .row.cr.p-2.mt-4
           h5 Producción más eficiente:
-          p.mb-2 El Favorece el ahorro de energía y requiere de menos recursos naturales y materias primas.
+          p.mb-2 Favorece el ahorro de energía y requiere de menos recursos naturales y materias primas.
         .row.cr.p-2.mt-4
           h5 Consumidores más fáciles:
           p.mb-2 Satisface la demanda del mercado con productos más atractivos para el público cada vez más exigente.
@@ -410,7 +420,10 @@
       .col-lg-2
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
-        p.mb-0.text-white Para ampliar el tema sobre el eco diseño, se recomienda ver el video sobre: “¿Qué es el eco diseño? (2020)<br>que se encuentra en el material complementario de este componente formativo.
+        p.mb-0.text-white Para ampliar el tema sobre el ecodiseño, se recomienda ver el video sobre: “¿Qué es el ecodiseño? (2020)<br>que se encuentra en el material complementario de este componente formativo.
+      .col-sm-auto
+        a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=MbaZdkHTBWU')" target="_blank")
+          span Ir a enlace        
     separador
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4  Biodegradabilidad
@@ -494,7 +507,7 @@
     .row.mt-4 
       .col-lg-8
         p Cuando se hace referencia sobre el impacto de la economía en el medio ambiente se logra una visión de la economía actual, gracias a las nuevas economías que se han ido desempeñando he implementado para el cuidado del medio ambiente como lo son los productos biodegradables y la economía circular, estas innovaciones dan un impacto económico positivo al medio ambiente aportando soluciones al medio ambiente en temas de reciclaje y disminución de la contaminación.
-        p La energía renovable es una de las ideas más innovadoras y perseguidas por los inversionistas que buscan hacer miles de proyectos realidad, ya que la energías renovables son las que más aportan al planeta en su cuidado puesto que busca crear energías con elementos naturales que no expongan a otros elementos esenciales de los cuales se puedan dañar, uno de estos ejemplos es el petróleo, su proceso siempre pone en peligro la tierra y las aguas por su alta tasa de crudo contamina lo que va tocando. En la actualidad, la biomasa ha tenido un gran impacto positivo con el medio ambiente al ser el competidor natural del petróleo, es por eso que se han planteado cantidades de proyectos en busca de ir reemplazando con el paso de los años, el petróleo por la biomasa.
+        p La energía renovable es una de las ideas más innovadoras y perseguidas por los inversionistas que buscan hacer miles de proyectos realidad, ya que las energías renovables son las que más aportan al planeta en su cuidado puesto que busca crear energías con elementos naturales que no expongan a otros elementos esenciales de los cuales se puedan dañar, uno de estos ejemplos es el petróleo, su proceso siempre pone en peligro la tierra y las aguas por su alta tasa de crudo contamina lo que va tocando. En la actualidad, la biomasa ha tenido un gran impacto positivo con el medio ambiente al ser el competidor natural del petróleo, es por eso que se han planteado cantidades de proyectos en busca de ir reemplazando con el paso de los años, el petróleo por la biomasa.
       .col-lg-4
         img(src='@/assets/curso/tema2/img36.png' alt='AvatarTop')
       p Para que una idea de negocio tenga un buen impacto positivo en el ambiente se debe tener en cuenta lo siguiente:

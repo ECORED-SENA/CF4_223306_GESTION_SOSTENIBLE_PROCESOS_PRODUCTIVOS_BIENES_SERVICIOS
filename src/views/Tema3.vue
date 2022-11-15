@@ -9,16 +9,16 @@
     p La comunicación es la realidad que une a las personas y empresas permitiendo que se integren desde cualquier lugar del mundo, en el siguiente video se explica a detalle cada uno de los elementos que permiten hacer el proceso:  
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uyfkdAMQAI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-4.p-3.bt2
       .col-lg-2
         img(src='@/assets/curso/tema3/img1.svg', alt='Texto que describa la imagen')
       .col-lg-10.mt-2
-        p Estos elementos permiten que la comunicación sea una oportunidad en el diario vivir, el tema es muy amplio y se puede dividir en subgrupos para entenderla mejor: dos subgrupos importantes son lo que tienen que ver con la comunicación oral y la comunicación escrita que también se conocen como tipos de la comunicación y se describen a continuación:
+        p Estos elementos permiten que la comunicación sea una oportunidad en el diario vivir, el tema es muy amplio y se puede dividir en subgrupos para entenderla mejor: dos subgrupos importantes son lo que tienen que ver con la comunicación oral y comunicación de atributos ambientales que también se conocen como tipos de la comunicación y se describen a continuación.
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1  La comunicación oral 
-    p Es aquella que se realiza entre dos o más personas con el uso de un lenguaje o código compartido por medio de un medio de transmisión físico que normalmente se le conoce como aire, aunque en la actualidad se puede añadir elementos de comunicación oral que se usan con frecuencia todos los días en el vivir como lo son los teléfonos y las computadores o dispositivos electrónicos.
+    p Es aquella que se realiza entre dos o más personas con el uso de un lenguaje o código compartido por medio de un medio de transmisión físico que normalmente se le conoce como aire, aunque en la actualidad se puede añadir elementos de comunicación oral que se usan con frecuencia todos los días en el vivir como lo son los teléfonos y los computadores o dispositivos electrónicos.
     p En la comunicación oral la expresión juega un rol muy importante, las personas tienen dos formas de usarla:
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header
@@ -35,7 +35,7 @@
     p A continuación, se hacen recomendaciones para lograr comunicación de manera efectiva que se llama asertiva:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/VXQJ7DGmkio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2  Comunicación de atributos ambientales
@@ -49,8 +49,7 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/sMT9eoUp_UY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>

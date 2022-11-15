@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Estrategias de economía circular y evaluación de la eficacia de alternativas implementadas',
     descripcionCurso:
-      'Este componente se centra en identificar nuevos modelos de negocios en la implementación de la economía circular, iniciativas de economía circular, fondos de inversión de impacto social. Así mismo, conceptos de eco innovación, ecodiseño y la identificación de sellos y etiquetado sostenible.<br>Por otro lado, conocer la importancia de la comunicación con los clientes de consumo de productos sostenibles, la importancia de implementar programas de ahorro y uso eficiente del agua y energía. Así mismo, los indicadores financieros, ambientales y comerciales.',
+      'Este componente se centra en identificar nuevos modelos de negocios en la implementación de la economía circular, iniciativas de economía circular, fondos de inversión de impacto social. Así mismo, conceptos de ecoinnovación, ecodiseño y la identificación de sellos y etiquetado sostenible.<br>Por otro lado, conocer la importancia de la comunicación con los clientes de consumo de productos sostenibles, la importancia de implementar programas de ahorro y uso eficiente del agua y energía. Así mismo, los indicadores financieros, ambientales y comerciales.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -283,7 +283,7 @@ export default {
       referencia:
         'MinAmbiente. (2022). Conozca los beneficios tributarios para empresas que ayuden a proteger el medio ambiente.',
       link:
-        'hhttps://www.minambiente.gov.co/cambio-climatico/conozca-los-beneficios-tributarios-para-empresas-que-ayuden-a-proteger-el-medio-ambiente/ ',
+        'https://www.minambiente.gov.co/cambio-climatico/conozca-los-beneficios-tributarios-para-empresas-que-ayuden-a-proteger-el-medio-ambiente/ ',
     },
     {
       referencia: 'Pérez, A, B, 2018. Cálculo de los indicadores financieros.',
@@ -318,12 +318,12 @@ export default {
         'Son los productos, materiales que se descomponen por agentes biológicos.',
     },
     {
-      termino: 'Eco diseño',
+      termino: 'Ecodiseño',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.Es una estrategia de la economía circular en la que su objetivo principal es prolongar indefinidamente el valor de los productos.',
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático. Es una estrategia de la economía circular en la que su objetivo principal es prolongar indefinidamente el valor de los productos.',
     },
     {
-      termino: 'Eco innovación',
+      termino: 'Ecoinnovación',
       significado:
         'Es conocida como la introducción de un nuevo o significativamente mejorado producto, proceso que genera beneficios económicos a las organizaciones y mitigan el impacto ambiental.',
     },
@@ -338,8 +338,8 @@ export default {
         'Es la capacidad que tiene una organización, persona o entidad de hacer frente a sus obligaciones financieras.',
     },
     {
-      termino: 'PUEEA',
-      significado: 'Programa de uso eficiente y ahorro del agua.',
+      termino: 'PUEAA',
+      significado: ' Programa de Uso Eficiente y Ahorro del Agua.',
     },
     {
       termino: 'Rentas',
@@ -378,7 +378,7 @@ export default {
     },
     {
       tema: '2.3 Eco diseño',
-      referencia: 'Un mundo tecnológico (2020), ¿Qué es el eco diseño?[video]',
+      referencia: 'Un mundo tecnológico (2020), ¿Qué es el ecodiseño?[video]',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=MbaZdkHTBWU',
     },

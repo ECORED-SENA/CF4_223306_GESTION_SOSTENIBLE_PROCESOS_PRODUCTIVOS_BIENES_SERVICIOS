@@ -110,15 +110,15 @@
               th.h4 ¿Qué mide?
             tr
               td Rentabilidad
-              td Utilidad neta<br>Activo<br><br>Utilidad neta<br>Patrimonio
+              td.text-center Utilidad neta<br>_______________<br>Activo<br><br>Utilidad neta<br>________________<br>Patrimonio
               td Al analizar la rentabilidad, incluye la valoración de la rentabilidad en relación con las actividades realizadas. <br><br>Muestra la influencia de diversos factores externos e internos en la consecución del beneficio.  
             tr
               td Liquidez
-              td Activos corrientes<br>Pasivos corrientes
+              td.text-center Activos corrientes<br>________________________<br>Pasivos corrientes
               td Incluye la capacidad financiera del banco para cumplir con las obligaciones a corto plazo. Es un concepto basado en valores como las reservas legales, la forma de los mercados financieros, la estrategia de tesorería y el estado de los mercados financieros.
             tr
               td Calidad de activos
-              td Bienes recibidos en pago o adjudicados netos más préstamo vencidos netos<br>Patrimonio
+              td.text-center Bienes recibidos en pago o adjudicados netos más préstamo vencidos netos<br>________________________________<br>Patrimonio
               td Estos índices deben reflejar el verdadero valor de los activos del banco y la medida en que las pérdidas de producción se compensan en términos de calidad financiera, y reflejar las debilidades y fortalezas de la gerencia en cuanto a gobierno y control. 
     separador
     #t_6_2.titulo-segundo.color-acento-contenido
@@ -128,7 +128,7 @@
         img(src='@/assets/curso/tema6/img5.png' alt='AvatarTop')
 
       .col-lg-8.mt-2
-        p Es una medida que puede ser de origen físico, químico, biológico, social o económico, que constituye una herramienta para informar sobre el estado del medio ambiente, con ello se puede evaluar la gestión de políticas, programas, tratados, etc… En los programas y proyectos ambientales el valor de los indicadores ambientales ayuda a los actores clave y tomadores de decisiones a tomar medidas y acciones oportunas en la gestión ambiental a nivel nacional, regional y local, permitiendo soluciones para evaluar y estudiar aspectos relevantes del estado del medio ambiente, la sostenibilidad de los recursos naturales y su interacción con la ocupación humana ya que muestra información respaldada científicamente sobre las condiciones ambientales y las tendencias del medio analizado.
+        p Es una medida que puede ser de origen físico, químico, biológico, social o económico, que constituye una herramienta para informar sobre el estado del medio ambiente, con ello se puede evaluar la gestión de políticas, programas, tratados, etc. En los programas y proyectos ambientales el valor de los indicadores ambientales ayuda a los actores clave y tomadores de decisiones a tomar medidas y acciones oportunas en la gestión ambiental a nivel nacional, regional y local, permitiendo soluciones para evaluar y estudiar aspectos relevantes del estado del medio ambiente, la sostenibilidad de los recursos naturales y su interacción con la ocupación humana ya que muestra información respaldada científicamente sobre las condiciones ambientales y las tendencias del medio analizado.
         p Las características de los indicadores ambientales son las siguientes:
         ul.lista-ul--color
           li.mb-0
@@ -243,6 +243,9 @@
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
         p.mb-0.text-white Además de buscar la información en la red se recomienda ver el video sobre: “Indicadores ambientales” que se encuentra en el material complementario de este componente formativo.
+      .col-sm-auto
+        a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=YnI3J9G8FiA')" target="_blank")
+          span Ir a enlace    
     separador
     #t_6_3.titulo-segundo.color-acento-contenido
       h2 6.3  Indicadores comerciales  
@@ -260,7 +263,7 @@
 
       .tarjeta.color-acento-botones.p-3(x="72%" y="33%" numero="+")
         .h5.mb-2 Indicadores comerciales de cliente
-        p Este indicador permite medir la satisfacción y retención de clientes, ayuda a evaluar la rentabilidad de las diferentes campañas de marketing que implementa la organización. 
+        p Este indicador permite medir la satisfacción y retención de clientes, ayuda a evaluar la rentabilidad de las diferentes campañas de <i>marketing</i> que implementa la organización. 
       .tarjeta.color-acento-botones.p-3(x="36%" y="70%" numero="+")
         .h5.mb-2 Indicadores de proceso
         p Este indicador considera monitorizar el porcentaje de defectos del producto y la eficiencia de la organización, frente a las unidades producidas cada hora y que porcentaje de tiempo estuvo funcionando la planta.

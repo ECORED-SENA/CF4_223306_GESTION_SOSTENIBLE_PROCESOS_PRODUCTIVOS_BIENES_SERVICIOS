@@ -20,7 +20,7 @@
         p Las entidades encargadas de gestionar los recursos hídricos para grandes usuarios, acueductos urbanos, puentes verdes y pequeños usuarios, son responsables de entregar un programa de uso eficiente y económico para la conservación del agua según lo establece la Ley 373 en 1997, el objetivo de la ley es la de establecer actividades para asegurar la conservación y protección de los recursos hídricos.
         .cajon.color-acento-botones.p-4.mb-4
           p Un programa es un mecanismo de planificación sistemática para mantener el suministro de agua existente en un área determinada para satisfacer la demanda de agua requerida por la población de acuerdo con la situación ambiental actual. 
-        p El programa de “Economía y uso efectivo del agua” incluye una serie de subprogramas que posibilitan el desarrollo de planes y estrategias con el objetivo de desarrollar protocolos para la gestión del recurso hídrico: educación ambiental, medición, aprovechamiento y reutilización de aguas pluviales y bajo consumo; también trabaja las tecnología y áreas de especial manejo, incentivos o penalizaciones. 
+        p El programa de “Economía y uso efectivo del agua” incluye una serie de subprogramas que posibilitan el desarrollo de planes y estrategias con el objetivo de desarrollar protocolos para la gestión del recurso hídrico: educación ambiental, medición, aprovechamiento y reutilización de aguas pluviales y bajo consumo; también trabaja la tecnología y áreas de especial manejo, incentivos o penalizaciones. 
       .col-lg-4
         img(src='@/assets/curso/tema4/img2.png', alt='Texto que describa la imagen')
     .row.mt-4.bg3.p-4.align-items-center
@@ -28,22 +28,24 @@
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
       .col-lg-8
         p.mb-0.text-white Para ampliar el tema sobre Programas de ahorro y uso eficiente del agua, se recomienda ver el video sobre: “Ahorro y uso eficiente del Agua” que se encuentra en el material complementario de este componente formativo.
-    
+      .col-sm-auto
+        a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=u3ZvOiOw2yQ')" target="_blank")
+          span Ir a enlace    
     .row.bg8.align-items-center
       .row.mt-3.align-items-center
         .col-lg-4
           img(src='@/assets/curso/tema4/img3.png', alt='Texto que describa la imagen')
 
         .col-lg-8.mt-2
-          p También se encuentra el PUEEA (Programa para la Eficiencia y Conservación del Agua), este documento explica el funcionamiento y la disponibilidad del recurso hídrico en el tiempo. Este programa trabaja una concesión legal de agua para una población determinada cuando se requiera. Este documento es uno de los requisitos que se deben presentar y cumplir para solicitar la prórroga de las concesiones de agua y en las decisiones de concesión requeridas. Además, todas las personas naturales o jurídicas que operen una concesión de agua deben presentar un documento PUEEA.
+          p También se encuentra el PUEEA (Programa de Uso Eficiente y Ahorro del Agua), este documento explica el funcionamiento y la disponibilidad del recurso hídrico en el tiempo. Este programa trabaja una concesión legal de agua para una población determinada cuando se requiera. Este documento es uno de los requisitos que se deben presentar y cumplir para solicitar la prórroga de las concesiones de agua y en las decisiones de concesión requeridas. Además, todas las personas naturales o jurídicas que operen una concesión de agua deben presentar un documento PUEEA.
           p En la siguiente gráfica se puede ver la normatividad que sustenta el PUEEA en Colombia:
       .row.justify-content-center.mt-4
         .col-lg-10
           .titulo-sexto.color-acento-contenido
-            h5 Tabla 2. 
+            h5 Figura 2. 
             span Beneficios tributarios de productos sostenibles       
           img(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen')
-          figcaption Nota. https://bit.ly/3QPY8bz
+          figcaption Nota. https://repository.usta.edu.co/bitstream/handle/11634/15148/2019ElsaAlfaro2.pdf
     .row.mt-4
       .col-lg-7
         p Algunos otros proyectos que trabajan la regulación del recurso hídrico son los siguientes:
@@ -91,7 +93,7 @@
       .col-lg-2
         img(src='@/assets/curso/tema4/img8.svg', alt='Texto que describa la imagen')
       .col-lg-10.mt-4
-        p Los Programas de Caracterización del Consumo de Energía y Eficiencia Energética implementados por la UPME (Unidad de Planificación Energética Mineral) tienen como objetivo promover el desarrollo de políticas públicas para mejorar el uso de los recursos y la energía, y finalmente recomendaciones sobre fuentes de energía adecuadas. Estos programas tienen varios objetivos, como se puede ver a continuación:
+        p Los Programas de Caracterización del Consumo de Energía y Eficiencia Energética implementados por la UPME (Unidad de Planeación Minero Energética.) tienen como objetivo promover el desarrollo de políticas públicas para mejorar el uso de los recursos y la energía, y finalmente recomendaciones sobre fuentes de energía adecuadas. Estos programas tienen varios objetivos, como se puede ver a continuación:
     .col-lg-5.mt-4.bha.p-1
       h4.mt-1 Primer balance de energía útil para Colombia (BEU) – 2018
     .row.mt-3
@@ -102,6 +104,9 @@
     p.mt-1 El BEU determinó que las pérdidas por ineficiencia energética ascendieron a aproximadamente $6.700 millones en comparación con los equipos actualmente en uso con BAT en Colombia y $11.000 millones con BAT a nivel internacional como se puede ver en la siguiente figura:
     .row.mt-4.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 3.
+          span Primer balance de energía útil para Colombia (BEU) – 2018
         img(src='@/assets/curso/tema4/img10.svg', alt='Texto que describa la imagen')
     .col-lg-6.mt-4.bha.p-1
       h4.mt-1 Proyecto de eficiencia energética industrial en Colombia 2016-2019
@@ -110,7 +115,7 @@
         .row
           .col-lg-7.mt-4
             .cajon-b.color-primario.p-3.mb-5
-              p.mb-0 El Programa de Eficiencia Energética Industrial de Colombia tiene como objetivo promover el mercado de productos y servicios energéticamente eficientes mediante el fortalecimiento de los reglamentos y normas técnicas, la creación de capacidades en los Sistemas de Gestión de Energía y Calidad (SGEn) y la mejora de los procesos. En este proyecto se evaluaron 180 industrias y se capacitaron cerca de 100 técnicos de industrias ubicadas en siete regiones del país, tales como: Cundinamarca Boyacá, Santander y Norte de Santander, Egy Cafetero, Atlántico y Valle del Cauca.
+              p.mb-0 El Programa de Eficiencia Energética Industrial de Colombia tiene como objetivo promover el mercado de productos y servicios energéticamente eficientes mediante el fortalecimiento de los reglamentos y normas técnicas, la creación de capacidades en los Sistemas de Gestión de Energía y Calidad (SGEn) y la mejora de los procesos. En este proyecto se evaluaron 180 industrias y se capacitaron cerca de 100 técnicos de industrias ubicadas en siete regiones del país, tales como: Cundinamarca, Boyacá, Santander y Norte de Santander, Eje Cafetero, Atlántico y Valle del Cauca.
                 br
                 br
                 | Como resultado, SGEn mide y divulga un ahorro total de optimización de 1.287 TJ/año, o 87.707,42 toneladas de CO2/año, lo que contribuye al objetivo de la industria nacional de PROURE para 2017-2022 y se estima en un 5 %. En la siguiente figura se muestra el impacto de esa implementación a nivel general Colombia:
@@ -122,13 +127,13 @@
           h5 Figura 4. 
           span Impacto de la implementación de Sistemas de Gestión de Energía SGEn 
         img(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen')
-        figcaption Nota. https://bit.ly/3c7kOoq 
+        figcaption Nota. https://www1.upme.gov.co/DemandayEficiencia/Paginas/Proyectos-de-eficiencia-energetica.aspx
     .row.mt-4
     .col-lg-5.mt-5.bha.p-1
       h4.mt-1 Programa de evaluación industrial PEVI (2018-2022)
     .row.mt-4
       .col-lg-6
-        p Gracias al éxito del proyecto EEI en Colombia, UNIDO/UPME ha comenzado a darle continuidad a través de una iniciativa denominada “Programa para el Desarrollo Industrial (PEVI)” que creará y promoverá oportunidades para el uso eficiente de la energía en la industria y al mismo tiempo, formar administradores universitarios en regiones específicas del país. El PEVI consta de dos fases piloto que se implementaron en 2018 y 2019. Estas fases facilitan la generación de insumos para identificar y validar metodologías, planes y mecanismos, trabajando con universidades e industria de la región.
+        p Gracias al éxito del proyecto EEI en Colombia, UNIDO/UPME ha comenzado a darle continuidad a través de una iniciativa denominada “Programa de evaluación Industrial (PEVI)” que creará y promoverá oportunidades para el uso eficiente de la energía en la industria y al mismo tiempo, formar administradores universitarios en regiones específicas del país. El PEVI consta de dos fases piloto que se implementaron en 2018 y 2019. Estas fases facilitan la generación de insumos para identificar y validar metodologías, planes y mecanismos, trabajando con universidades e industria de la región.
         p Se aplicaron 21 estudios de la industria, resultando en ahorros potenciales de energía de más del 8% gracias a buenas prácticas mínimas o sin costo. Para garantizar la continuidad y mejorar las experiencias adquiridas, se establece el establecimiento de tres Centros de Evaluación de la Industria para 2020, con un enfoque en mejorar el modelo operativo y de gestión para garantizar que se creen académicos y contribuyan a las oportunidades de eficiencia energética en las industrias impactantes en el sitio.
       .col-lg-6
         img(src='@/assets/curso/tema4/img13.png', alt='Texto que describa la imagen')
