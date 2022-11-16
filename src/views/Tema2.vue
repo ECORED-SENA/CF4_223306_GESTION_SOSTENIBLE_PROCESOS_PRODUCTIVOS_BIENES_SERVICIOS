@@ -385,37 +385,54 @@
     
     p.mt-2 Estas normas son las que velan por el ecodiseño en el mercado, son las encargadas de vigilar el producto y ofrecerle garantía evaluando y acreditando el trabajo de cada empresa con los productos. Además, el ecodiseño tiene los siguientes beneficios exponenciales:
     .row.bg5.align-items-center
-      .col-lg-1.ffa
-        img.mt-4(src='@/assets/curso/tema2/e4.svg', alt='Texto que describa la imagen')
+      .row.align-items-center
+        .col-lg-9
+          .row.align-items-center
+            .col-lg-2.col-2
+              img.mt-4.wima(src='@/assets/curso/tema2/e4.svg', alt='Texto que describa la imagen')
+            .col-lg-10.col-10
+              .row.cr.p-2.mt-4
+                h5 Artículos de mayor calidad:
+                p.mb-2 Los productos son de mejor calidad porque su desarrollo es mayor.
+          .row.align-items-center
+            .col-lg-2.col-2
+              img.mt-4.wima(src='@/assets/curso/tema2/e1.svg', alt='Texto que describa la imagen')
+            .col-lg-10.col-10
+              .row.cr.p-2.mt-4
+                h5 Reducción de emisiones:
+                p.mb-2 El consumo durante el transporte disminuyó y, en consecuencia, las emisiones de CO2.
+          .row.align-items-center
+            .col-lg-2.col-2
+              img.mt-4.wima(src='@/assets/curso/tema2/e2.svg', alt='Texto que describa la imagen')
+            .col-lg-10.col-10
+              .row.cr.p-2.mt-4
+                h5 Industrias más sostenibles:
+                p.mb-2 Las empresas ganan en capacidad de innovación y refuerzan su compromiso con el medio ambiente.
+          .row.align-items-center
+            .col-lg-2.col-2
+              img.mt-4.wima(src='@/assets/curso/tema2/e3.svg', alt='Texto que describa la imagen')
+            .col-lg-10.col-10
+              .row.cr.p-2.mt-4
+                h5 Producción más eficiente:
+                p.mb-2 Favorece el ahorro de energía y requiere de menos recursos naturales y materias primas.
+          .row.align-items-center
+            .col-lg-2.col-2
+              img.mt-4.wima(src='@/assets/curso/tema2/e4.svg', alt='Texto que describa la imagen')
+            .col-lg-10.col-10
+              .row.cr.p-2.mt-4
+                h5 Consumidores más fáciles:
+                p.mb-2 Satisface la demanda del mercado con productos más atractivos para el público cada vez más exigente.
+          .row.align-items-center
+            .col-lg-2.col-2
+              img.mt-4.wima(src='@/assets/curso/tema2/e5.svg', alt='Texto que describa la imagen')
+            .col-lg-10.col-10
+              .row.cr.p-2.mt-4
+                h5 Diferenciación en el mercado:
+                p.mb-2 Los productos sostenibles cuentan con un valor añadido que lo distinguen de la competencia.
 
-        img.mt-4(src='@/assets/curso/tema2/e1.svg', alt='Texto que describa la imagen')
-        img.mt-4(src='@/assets/curso/tema2/e2.svg', alt='Texto que describa la imagen')
-        img.mt-4(src='@/assets/curso/tema2/e3.svg', alt='Texto que describa la imagen')
-        img.mt-4(src='@/assets/curso/tema2/e4.svg', alt='Texto que describa la imagen')
-        img.mt-4(src='@/assets/curso/tema2/e5.svg', alt='Texto que describa la imagen')
 
-      .col-lg-8
-        .row.cr.p-2.mt-4
-          h5 Artículos de mayor calidad:
-          p.mb-2 Los productos son de mejor calidad porque su desarrollo es mayor.
-        .row.cr.p-2.mt-4
-          h5 Reducción de emisiones:
-          p.mb-2 El consumo durante el transporte disminuyó y, en consecuencia, las emisiones de CO2.
-        .row.cr.p-2.mt-4
-          h5 Industrias más sostenibles:
-          p.mb-2 Las empresas ganan en capacidad de innovación y refuerzan su compromiso con el medio ambiente.
-        .row.cr.p-2.mt-4
-          h5 Producción más eficiente:
-          p.mb-2 Favorece el ahorro de energía y requiere de menos recursos naturales y materias primas.
-        .row.cr.p-2.mt-4
-          h5 Consumidores más fáciles:
-          p.mb-2 Satisface la demanda del mercado con productos más atractivos para el público cada vez más exigente.
-        .row.cr.p-2.mt-4
-          h5 Diferenciación en el mercado:
-          p.mb-2 Los productos sostenibles cuentan con un valor añadido que lo distinguen de la competencia.
-
-      .col-lg-3
-        img.tamq1(src='@/assets/curso/tema2/img29.svg', alt='Texto que describa la imagen')
+        .col-lg-3
+          img.tamq1(src='@/assets/curso/tema2/img29.svg', alt='Texto que describa la imagen')
     .row.bg3.p-4.align-items-center
       .col-lg-2
         img.tam(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')

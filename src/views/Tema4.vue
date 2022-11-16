@@ -43,7 +43,7 @@
         .col-lg-10
           .titulo-sexto.color-acento-contenido
             h5 Figura 2. 
-            span Beneficios tributarios de productos sostenibles       
+            span Normatividad que fundamenta el PUEEA   
           img(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen')
           figcaption Nota. https://repository.usta.edu.co/bitstream/handle/11634/15148/2019ElsaAlfaro2.pdf
     .row.mt-4
@@ -108,6 +108,7 @@
           h5 Figura 3.
           span Primer balance de energía útil para Colombia (BEU) – 2018
         img(src='@/assets/curso/tema4/img10.svg', alt='Texto que describa la imagen')
+        figcaption.mt-2 Nota: https://www1.upme.gov.co/DemandayEficiencia/Paginas/Proyectos-de-eficiencia-energetica.aspx
     .col-lg-6.mt-4.bha.p-1
       h4.mt-1 Proyecto de eficiencia energética industrial en Colombia 2016-2019
     .row.justify-content-center

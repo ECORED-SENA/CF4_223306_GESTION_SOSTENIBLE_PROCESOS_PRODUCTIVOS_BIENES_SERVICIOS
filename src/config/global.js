@@ -72,13 +72,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Eco innovación.',
+            titulo: 'Ecoinnovación.',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Eco diseño.',
+            titulo: 'Ecodiseño.',
             hash: 't_2_3',
           },
           {

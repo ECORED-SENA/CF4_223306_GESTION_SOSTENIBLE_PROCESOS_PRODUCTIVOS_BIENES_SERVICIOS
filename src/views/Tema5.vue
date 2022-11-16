@@ -163,7 +163,10 @@
           h3.text-center.text-white.mb-0 Costo anual equivalente       
         .row.colorv2.p-2.justify-content-center
           .col-lg-10.mt-4
-            h4.text-center.mb-0 CAUE o BAUE = VAN * (1+i) n*i/(1-i) n*i
+            .row.justify-content-center
+              .col-lg-7
+                img(src='@/assets/curso/tema5/f1.svg' alt='AvatarTop')
+
             p Donde:
             p <strong>i:</strong> corresponde a la tasa de intereses.
             p <strong>n:</strong> corresponde al número de periodos a evaluar
